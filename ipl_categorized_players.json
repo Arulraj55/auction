@@ -1,0 +1,2766 @@
+{
+  "batsmen": [
+    {
+      "name": "Ruturaj Gaikwad",
+      "team": "Chennai Super Kings",
+      "role_text": "Batter (Captain)",
+      "nationality": "Indian",
+      "price": "INR 18.00 Cr"
+    },
+    {
+      "name": "Dewald Brevis",
+      "team": "Chennai Super Kings",
+      "role_text": "Batter",
+      "nationality": "South African",
+      "price": "INR 2.20 Cr"
+    },
+    {
+      "name": "Ayush Mhatre",
+      "team": "Chennai Super Kings",
+      "role_text": "Batter",
+      "nationality": "Indian",
+      "price": "INR 0.30 Cr"
+    },
+    {
+      "name": "MS Dhoni",
+      "team": "Chennai Super Kings",
+      "role_text": "Wk-Batter",
+      "nationality": "Indian",
+      "price": "INR 4.00 Cr"
+    },
+    {
+      "name": "Urvil Patel",
+      "team": "Chennai Super Kings",
+      "role_text": "Wk-Batter",
+      "nationality": "Indian",
+      "price": "INR 0.30 Cr"
+    },
+    {
+      "name": "Sanju Samson",
+      "team": "Chennai Super Kings",
+      "role_text": "Wk-Batter",
+      "nationality": "Indian",
+      "price": "INR 18.00 Cr (trade value)"
+    },
+    {
+      "name": "Kartik Sharma",
+      "team": "Chennai Super Kings",
+      "role_text": "Wk-Batter",
+      "nationality": "India",
+      "price": "INR 14.20 Cr"
+    },
+    {
+      "name": "Sarfaraz Khan",
+      "team": "Chennai Super Kings",
+      "role_text": "Batsman",
+      "nationality": "India",
+      "price": "INR 75 Lakh"
+    },
+    {
+      "name": "Tristan Stubbs",
+      "team": "Delhi Capitals",
+      "role_text": "Batter",
+      "nationality": "South African",
+      "price": "INR 10.00 cr"
+    },
+    {
+      "name": "Sameer Rizvi",
+      "team": "Delhi Capitals",
+      "role_text": "Batter",
+      "nationality": "Indian",
+      "price": "INR 0.95 cr"
+    },
+    {
+      "name": "Karun Nair",
+      "team": "Delhi Capitals",
+      "role_text": "Batter",
+      "nationality": "Indian",
+      "price": "INR 0.50 cr"
+    },
+    {
+      "name": "Nitish Rana",
+      "team": "Delhi Capitals",
+      "role_text": "Batter",
+      "nationality": "Indian",
+      "price": "INR 4.20 cr"
+    },
+    {
+      "name": "KL Rahul",
+      "team": "Delhi Capitals",
+      "role_text": "Wk-Batter",
+      "nationality": "Indian",
+      "price": "INR 14.00 cr"
+    },
+    {
+      "name": "Ben Duckett",
+      "team": "Delhi Capitals",
+      "role_text": "Batsman",
+      "nationality": "England",
+      "price": "INR 2 Cr"
+    },
+    {
+      "name": "David Miller",
+      "team": "Delhi Capitals",
+      "role_text": "Batsman",
+      "nationality": "South Africa",
+      "price": "INR 2 Cr"
+    },
+    {
+      "name": "Pathum Nissanka",
+      "team": "Delhi Capitals",
+      "role_text": "Batsman",
+      "nationality": "Sri Lanka",
+      "price": "INR 5 Cr"
+    },
+    {
+      "name": "Prithvi Shaw",
+      "team": "Delhi Capitals",
+      "role_text": "Batsman",
+      "nationality": "India",
+      "price": "INR 75 Lakh"
+    },
+    {
+      "name": "Suryakumar Yadav",
+      "team": "Mumbai Indians",
+      "role_text": "Batter",
+      "nationality": "Indian",
+      "price": "INR 16.35 cr"
+    },
+    {
+      "name": "Rohit Sharma",
+      "team": "Mumbai Indians",
+      "role_text": "Batter",
+      "nationality": "Indian",
+      "price": "INR 16.30 cr"
+    },
+    {
+      "name": "Tilak Varma",
+      "team": "Mumbai Indians",
+      "role_text": "Batter",
+      "nationality": "Indian",
+      "price": "INR 8 cr"
+    },
+    {
+      "name": "Ryan Rickelton",
+      "team": "Mumbai Indians",
+      "role_text": "Wk-Batter",
+      "nationality": "South African",
+      "price": "INR 1 cr"
+    },
+    {
+      "name": "Robin Minz",
+      "team": "Mumbai Indians",
+      "role_text": "Wk-Batter",
+      "nationality": "Indian",
+      "price": "INR 0.65 cr"
+    },
+    {
+      "name": "Quinton de Kock",
+      "team": "Mumbai Indians",
+      "role_text": "Wk-Batter",
+      "nationality": "South Africa",
+      "price": "INR 1 Cr"
+    },
+    {
+      "name": "Virat Kohli",
+      "team": "Royal Challengers Bengaluru",
+      "role_text": "Batter",
+      "nationality": "Indian",
+      "price": "INR 21.00 cr"
+    },
+    {
+      "name": "Rajat Patidar",
+      "team": "Royal Challengers Bengaluru",
+      "role_text": "Batter",
+      "nationality": "Indian",
+      "price": "INR 11.00 cr"
+    },
+    {
+      "name": "Devdutt Padikkal",
+      "team": "Royal Challengers Bengaluru",
+      "role_text": "Batter",
+      "nationality": "Indian",
+      "price": "INR 2.00 cr"
+    },
+    {
+      "name": "Phil Salt",
+      "team": "Royal Challengers Bengaluru",
+      "role_text": "Batter",
+      "nationality": "English",
+      "price": "INR 11.50 cr"
+    },
+    {
+      "name": "Jitesh Sharma",
+      "team": "Royal Challengers Bengaluru",
+      "role_text": "Wk-Batter",
+      "nationality": "Indian",
+      "price": "INR 11.00 cr"
+    },
+    {
+      "name": "Jordan Cox",
+      "team": "Royal Challengers Bengaluru",
+      "role_text": "Batsman",
+      "nationality": "England",
+      "price": "INR 75 Lakh"
+    },
+    {
+      "name": "Rinku Singh",
+      "team": "Kolkata Knight Riders",
+      "role_text": "Batter",
+      "nationality": "Indian",
+      "price": "INR 13 Cr"
+    },
+    {
+      "name": "Ramandeep Singh",
+      "team": "Kolkata Knight Riders",
+      "role_text": "Batter",
+      "nationality": "Indian",
+      "price": "INR 4 Cr"
+    },
+    {
+      "name": "Angkrish Raghuvanshi",
+      "team": "Kolkata Knight Riders",
+      "role_text": "Batter",
+      "nationality": "Indian",
+      "price": "INR 3 Cr"
+    },
+    {
+      "name": "Rovman Powell",
+      "team": "Kolkata Knight Riders",
+      "role_text": "Batter",
+      "nationality": "West Indies",
+      "price": "INR 1.50 Cr"
+    },
+    {
+      "name": "Ajinkya Rahane",
+      "team": "Kolkata Knight Riders",
+      "role_text": "Batter",
+      "nationality": "Indian",
+      "price": "INR 1.50 Cr"
+    },
+    {
+      "name": "Manish Pandey",
+      "team": "Kolkata Knight Riders",
+      "role_text": "Batter",
+      "nationality": "Indian",
+      "price": "INR 0.75 Cr"
+    },
+    {
+      "name": "Finn Allen",
+      "team": "Kolkata Knight Riders",
+      "role_text": "Wk-Batter",
+      "nationality": "New Zealand",
+      "price": "INR 2 Cr"
+    },
+    {
+      "name": "Tim Seifert",
+      "team": "Kolkata Knight Riders",
+      "role_text": "Wk-Batter",
+      "nationality": "New Zealand",
+      "price": "INR 1.5 Cr"
+    },
+    {
+      "name": "Rahul Tripathi",
+      "team": "Kolkata Knight Riders",
+      "role_text": "Batsman",
+      "nationality": "India",
+      "price": "INR 75 Lakh"
+    },
+    {
+      "name": "Ayush Badoni",
+      "team": "Lucknow Super Giants",
+      "role_text": "Batter",
+      "nationality": "Indian",
+      "price": "INR 4.00 cr"
+    },
+    {
+      "name": "Aiden Markram",
+      "team": "Lucknow Super Giants",
+      "role_text": "Batter",
+      "nationality": "South African",
+      "price": "INR 2.00 cr"
+    },
+    {
+      "name": "Himmat Singh",
+      "team": "Lucknow Super Giants",
+      "role_text": "Batter",
+      "nationality": "Indian",
+      "price": "INR 0.30 cr"
+    },
+    {
+      "name": "Rishabh Pant",
+      "team": "Lucknow Super Giants",
+      "role_text": "Wk-Batter",
+      "nationality": "Indian",
+      "price": "INR 27.00 cr"
+    },
+    {
+      "name": "Nicholas Pooran",
+      "team": "Lucknow Super Giants",
+      "role_text": "Wk-Batter",
+      "nationality": "West Indies",
+      "price": "INR 21.00 cr"
+    },
+    {
+      "name": "Matthew Breetzke",
+      "team": "Lucknow Super Giants",
+      "role_text": "Wk-Batter",
+      "nationality": "South African",
+      "price": "INR 0.75 cr"
+    },
+    {
+      "name": "Akshat Raghuvanshi",
+      "team": "Lucknow Super Giants",
+      "role_text": "Batsman",
+      "nationality": "India",
+      "price": "INR 2.2 Cr"
+    },
+    {
+      "name": "Josh Inglis",
+      "team": "Lucknow Super Giants",
+      "role_text": "Wk-Batter",
+      "nationality": "Australia",
+      "price": "INR 8.6 Cr"
+    },
+    {
+      "name": "Sai Sudharsan",
+      "team": "Gujarat Titans",
+      "role_text": "Batter",
+      "nationality": "Indian",
+      "price": "INR 8.50 cr"
+    },
+    {
+      "name": "Shubman Gill",
+      "team": "Gujarat Titans",
+      "role_text": "Batter",
+      "nationality": "Indian",
+      "price": "INR 15.75 cr"
+    },
+    {
+      "name": "Sharukh Khan",
+      "team": "Gujarat Titans",
+      "role_text": "Batter",
+      "nationality": "Indian",
+      "price": "INR 4.00 cr"
+    },
+    {
+      "name": "Kumar Kushagra",
+      "team": "Gujarat Titans",
+      "role_text": "Wk-Batter",
+      "nationality": "Indian",
+      "price": "INR 0.65 cr"
+    },
+    {
+      "name": "Jos Buttler",
+      "team": "Gujarat Titans",
+      "role_text": "Wk-Batter",
+      "nationality": "English",
+      "price": "INR 15.75 cr"
+    },
+    {
+      "name": "Anuj Rawat",
+      "team": "Gujarat Titans",
+      "role_text": "Wk-Batter",
+      "nationality": "Indian",
+      "price": "INR 0.30 cr"
+    },
+    {
+      "name": "Tom Banton",
+      "team": "Gujarat Titans",
+      "role_text": "Batsman",
+      "nationality": "England",
+      "price": "INR 2 Cr"
+    },
+    {
+      "name": "Travis Head",
+      "team": "Sunrisers Hyderabad",
+      "role_text": "Batter",
+      "nationality": "Australian",
+      "price": "INR 14.00 cr"
+    },
+    {
+      "name": "Aniket Verma",
+      "team": "Sunrisers Hyderabad",
+      "role_text": "Batter",
+      "nationality": "Indian",
+      "price": "INR 0.30 cr"
+    },
+    {
+      "name": "Heinrich Klaasen",
+      "team": "Sunrisers Hyderabad",
+      "role_text": "Wk-Batter",
+      "nationality": "South African",
+      "price": "INR 23.00 cr"
+    },
+    {
+      "name": "Ishan Kishan",
+      "team": "Sunrisers Hyderabad",
+      "role_text": "wk-batter",
+      "nationality": "Indian",
+      "price": "INR 15.25 cr"
+    },
+    {
+      "name": "Yashasvi Jaiswal",
+      "team": "Rajasthan Royals",
+      "role_text": "Batter",
+      "nationality": "Indian",
+      "price": "INR 18.00 cr"
+    },
+    {
+      "name": "Shimran Hetmyer",
+      "team": "Rajasthan Royals",
+      "role_text": "Batter",
+      "nationality": "West Indies",
+      "price": "INR 11.00 cr"
+    },
+    {
+      "name": "Vaibhav Suryavanshi",
+      "team": "Rajasthan Royals",
+      "role_text": "Batter",
+      "nationality": "Indian",
+      "price": "INR 1.1 cr"
+    },
+    {
+      "name": "Dhruv Jurel",
+      "team": "Rajasthan Royals",
+      "role_text": "Wk-Batter",
+      "nationality": "Indian",
+      "price": "INR 14.00 cr"
+    },
+    {
+      "name": "Donovan Ferreira",
+      "team": "Rajasthan Royals",
+      "role_text": "Batter",
+      "nationality": "South African",
+      "price": "INR 1 crore"
+    },
+    {
+      "name": "Shreyas Iyer",
+      "team": "Punjab Kings",
+      "role_text": "Batter",
+      "nationality": "Indian",
+      "price": "INR 26.75 cr"
+    },
+    {
+      "name": "Nehal Wadhera",
+      "team": "Punjab Kings",
+      "role_text": "Batter",
+      "nationality": "Indian",
+      "price": "INR 4.20 cr"
+    },
+    {
+      "name": "Harnoor Singh",
+      "team": "Punjab Kings",
+      "role_text": "Batter",
+      "nationality": "Indian",
+      "price": "INR 0.30 cr"
+    },
+    {
+      "name": "Prabhsimran Singh",
+      "team": "Punjab Kings",
+      "role_text": "Wk-Batter",
+      "nationality": "Indian",
+      "price": "INR 4.00 cr"
+    },
+    {
+      "name": "Vishnu Vinoth",
+      "team": "Punjab Kings",
+      "role_text": "Wk-Batter",
+      "nationality": "Indian",
+      "price": "INR 0.95 cr"
+    },
+    {
+      "name": "Shashank Singh",
+      "team": "Punjab Kings",
+      "role_text": "Batter",
+      "nationality": "Indian",
+      "price": "INR 4.00 cr"
+    },
+    {
+      "name": "Ruturaj Gaikwad",
+      "team": "Punjab Kings",
+      "role_text": "Batter (Captain)",
+      "nationality": "Indian",
+      "price": "INR 18.00 Cr"
+    },
+    {
+      "name": "Dewald Brevis",
+      "team": "Punjab Kings",
+      "role_text": "Batter",
+      "nationality": "South African",
+      "price": "INR 2.20 Cr"
+    },
+    {
+      "name": "Ayush Mhatre",
+      "team": "Punjab Kings",
+      "role_text": "Batter",
+      "nationality": "Indian",
+      "price": "INR 0.30 Cr"
+    },
+    {
+      "name": "MS Dhoni",
+      "team": "Punjab Kings",
+      "role_text": "Wicket‑keeper Batter",
+      "nationality": "Indian",
+      "price": "INR 4.00 Cr"
+    },
+    {
+      "name": "Urvil Patel",
+      "team": "Punjab Kings",
+      "role_text": "Wicket‑keeper Batter",
+      "nationality": "Indian",
+      "price": "INR 0.30 Cr"
+    },
+    {
+      "name": "Sanju Samson",
+      "team": "Punjab Kings",
+      "role_text": "Wicket‑keeper Batter (Traded in)",
+      "nationality": "Indian",
+      "price": "INR 18.00 Cr (trade value)"
+    },
+    {
+      "name": "Suryakumar Yadav",
+      "team": "Punjab Kings",
+      "role_text": "Batter",
+      "nationality": "Indian",
+      "price": "INR 16.35 cr"
+    },
+    {
+      "name": "Rohit Sharma",
+      "team": "Punjab Kings",
+      "role_text": "Batter",
+      "nationality": "Indian",
+      "price": "INR 16.30 cr"
+    },
+    {
+      "name": "Tilak Varma",
+      "team": "Punjab Kings",
+      "role_text": "Batter",
+      "nationality": "Indian",
+      "price": "INR 8 cr"
+    },
+    {
+      "name": "Ryan Rickelton",
+      "team": "Punjab Kings",
+      "role_text": "Wk-Batter",
+      "nationality": "South African",
+      "price": "INR 1 cr"
+    },
+    {
+      "name": "Robin Minz",
+      "team": "Punjab Kings",
+      "role_text": "Wicket‑keeper / Batter",
+      "nationality": "Indian",
+      "price": "INR 0.65 cr"
+    },
+    {
+      "name": "Rinku Singh",
+      "team": "Punjab Kings",
+      "role_text": "Batter",
+      "nationality": "Indian",
+      "price": "INR 13 Cr"
+    },
+    {
+      "name": "Ramandeep Singh",
+      "team": "Punjab Kings",
+      "role_text": "Batter",
+      "nationality": "Indian",
+      "price": "INR 4 Cr"
+    },
+    {
+      "name": "Angkrish Raghuvanshi",
+      "team": "Punjab Kings",
+      "role_text": "Batter",
+      "nationality": "Indian",
+      "price": "INR 3 Cr"
+    },
+    {
+      "name": "Rovman Powell",
+      "team": "Punjab Kings",
+      "role_text": "Batter",
+      "nationality": "West Indies",
+      "price": "INR 1.50 Cr"
+    },
+    {
+      "name": "Ajinkya Rahane",
+      "team": "Punjab Kings",
+      "role_text": "Batter",
+      "nationality": "Indian",
+      "price": "INR 1.50 Cr"
+    },
+    {
+      "name": "Manish Pandey",
+      "team": "Punjab Kings",
+      "role_text": "Batter",
+      "nationality": "Indian",
+      "price": "INR 0.75 Cr"
+    },
+    {
+      "name": "Virat Kohli",
+      "team": "Punjab Kings",
+      "role_text": "Batter",
+      "nationality": "Indian",
+      "price": "INR 21.00 cr"
+    },
+    {
+      "name": "Rajat Patidar",
+      "team": "Punjab Kings",
+      "role_text": "Batter",
+      "nationality": "Indian",
+      "price": "INR 11.00 cr"
+    },
+    {
+      "name": "Devdutt Padikkal",
+      "team": "Punjab Kings",
+      "role_text": "Batter",
+      "nationality": "Indian",
+      "price": "INR 2.00 cr"
+    },
+    {
+      "name": "Phil Salt",
+      "team": "Punjab Kings",
+      "role_text": "Batter",
+      "nationality": "English",
+      "price": "INR 11.50 cr"
+    },
+    {
+      "name": "Jitesh Sharma",
+      "team": "Punjab Kings",
+      "role_text": "Wicket‑keeper / Batter",
+      "nationality": "Indian",
+      "price": "INR 11.00 cr"
+    },
+    {
+      "name": "Tristan Stubbs",
+      "team": "Punjab Kings",
+      "role_text": "Batter",
+      "nationality": "South African",
+      "price": "INR 10.00 cr"
+    },
+    {
+      "name": "Sameer Rizvi",
+      "team": "Punjab Kings",
+      "role_text": "Batter",
+      "nationality": "Indian",
+      "price": "INR 0.95 cr"
+    },
+    {
+      "name": "Karun Nair",
+      "team": "Punjab Kings",
+      "role_text": "Batter",
+      "nationality": "Indian",
+      "price": "INR 0.50 cr"
+    },
+    {
+      "name": "Nitish Rana",
+      "team": "Punjab Kings",
+      "role_text": "Batter",
+      "nationality": "Indian",
+      "price": "INR 4.20 cr"
+    },
+    {
+      "name": "KL Rahul",
+      "team": "Punjab Kings",
+      "role_text": "Wk-Batter",
+      "nationality": "Indian",
+      "price": "INR 14.00 cr"
+    },
+    {
+      "name": "Shreyas Iyer",
+      "team": "Punjab Kings",
+      "role_text": "Batter",
+      "nationality": "Indian",
+      "price": "INR 26.75 cr"
+    },
+    {
+      "name": "Nehal Wadhera",
+      "team": "Punjab Kings",
+      "role_text": "Batter",
+      "nationality": "Indian",
+      "price": "INR 4.20 cr"
+    },
+    {
+      "name": "Harnoor Singh",
+      "team": "Punjab Kings",
+      "role_text": "Batter",
+      "nationality": "Indian",
+      "price": "INR 0.30 cr"
+    },
+    {
+      "name": "Prabhsimran Singh",
+      "team": "Punjab Kings",
+      "role_text": "Wicket‑keeper / Batter",
+      "nationality": "Indian",
+      "price": "INR 4.00 cr"
+    },
+    {
+      "name": "Vishnu Vinoth",
+      "team": "Punjab Kings",
+      "role_text": "Wicket‑keeper / Batter",
+      "nationality": "Indian",
+      "price": "INR 0.95 cr"
+    },
+    {
+      "name": "Shashank Singh",
+      "team": "Punjab Kings",
+      "role_text": "Batter",
+      "nationality": "Indian",
+      "price": "INR 4.00 cr"
+    },
+    {
+      "name": "Travis Head",
+      "team": "Punjab Kings",
+      "role_text": "Batter",
+      "nationality": "Australian",
+      "price": "INR 14.00 cr"
+    },
+    {
+      "name": "Aniket Verma",
+      "team": "Punjab Kings",
+      "role_text": "Batter",
+      "nationality": "Indian",
+      "price": "INR 0.30 cr"
+    },
+    {
+      "name": "Heinrich Klaasen",
+      "team": "Punjab Kings",
+      "role_text": "Wk-Batter",
+      "nationality": "South African",
+      "price": "INR 23.00 cr"
+    },
+    {
+      "name": "Ishan Kishan",
+      "team": "Punjab Kings",
+      "role_text": "wk-batter",
+      "nationality": "Indian",
+      "price": "INR 15.25 cr"
+    },
+    {
+      "name": "Sai Sudharsan",
+      "team": "Punjab Kings",
+      "role_text": "Batter",
+      "nationality": "Indian",
+      "price": "INR 8.50 cr"
+    },
+    {
+      "name": "Shubman Gill",
+      "team": "Punjab Kings",
+      "role_text": "Batter",
+      "nationality": "Indian",
+      "price": "INR 15.75 cr"
+    },
+    {
+      "name": "Sharukh Khan",
+      "team": "Punjab Kings",
+      "role_text": "Batter",
+      "nationality": "Indian",
+      "price": "INR 4.00 cr"
+    },
+    {
+      "name": "Kumar Kushagra",
+      "team": "Punjab Kings",
+      "role_text": "Wicket‑keeper / Batter",
+      "nationality": "Indian",
+      "price": "INR 0.65 cr"
+    },
+    {
+      "name": "Jos Buttler",
+      "team": "Punjab Kings",
+      "role_text": "Wicket‑keeper / Batter",
+      "nationality": "English",
+      "price": "INR 15.75 cr"
+    },
+    {
+      "name": "Anuj Rawat",
+      "team": "Punjab Kings",
+      "role_text": "Wicket‑keeper / Batter",
+      "nationality": "Indian",
+      "price": "INR 0.30 cr"
+    },
+    {
+      "name": "Ayush Badoni",
+      "team": "Punjab Kings",
+      "role_text": "Batter",
+      "nationality": "Indian",
+      "price": "INR 4.00 cr"
+    },
+    {
+      "name": "Aiden Markram",
+      "team": "Punjab Kings",
+      "role_text": "Batter",
+      "nationality": "South African",
+      "price": "INR 2.00 cr"
+    },
+    {
+      "name": "Himmat Singh",
+      "team": "Punjab Kings",
+      "role_text": "Batter",
+      "nationality": "Indian",
+      "price": "INR 0.30 cr"
+    },
+    {
+      "name": "Rishabh Pant",
+      "team": "Punjab Kings",
+      "role_text": "Wicket‑keeper / Batter",
+      "nationality": "Indian",
+      "price": "INR 27.00 cr"
+    },
+    {
+      "name": "Nicholas Pooran",
+      "team": "Punjab Kings",
+      "role_text": "Wicket‑keeper / Batter",
+      "nationality": "West Indies",
+      "price": "INR 21.00 cr"
+    },
+    {
+      "name": "Matthew Breetzke",
+      "team": "Punjab Kings",
+      "role_text": "Wicket‑keeper / Batter",
+      "nationality": "South African",
+      "price": "INR 0.75 cr"
+    },
+    {
+      "name": "Yashasvi Jaiswal",
+      "team": "Punjab Kings",
+      "role_text": "Batter",
+      "nationality": "Indian",
+      "price": "INR 18.00 cr"
+    },
+    {
+      "name": "Shimran Hetmyer",
+      "team": "Punjab Kings",
+      "role_text": "Batter",
+      "nationality": "West Indies",
+      "price": "INR 11.00 cr"
+    },
+    {
+      "name": "Vaibhav Suryavanshi",
+      "team": "Punjab Kings",
+      "role_text": "Batter",
+      "nationality": "Indian",
+      "price": "INR 1.1 cr"
+    },
+    {
+      "name": "Dhruv Jurel",
+      "team": "Punjab Kings",
+      "role_text": "Wicket‑keeper / Batter",
+      "nationality": "Indian",
+      "price": "INR 14.00 cr"
+    },
+    {
+      "name": "Donovan Ferreira",
+      "team": "Punjab Kings",
+      "role_text": "Batter",
+      "nationality": "South African",
+      "price": "INR 1 crore"
+    }
+  ],
+  "bowlers": [
+    {
+      "name": "Khaleel Ahmed",
+      "team": "Chennai Super Kings",
+      "role_text": "Bowler",
+      "nationality": "Indian",
+      "price": "INR 4.80 Cr"
+    },
+    {
+      "name": "Anshul Kamboj",
+      "team": "Chennai Super Kings",
+      "role_text": "Bowler",
+      "nationality": "Indian",
+      "price": "INR 3.40 Cr"
+    },
+    {
+      "name": "Noor Ahmad",
+      "team": "Chennai Super Kings",
+      "role_text": "Bowler (Spinner)",
+      "nationality": "Afghan",
+      "price": "INR 10.00 Cr"
+    },
+    {
+      "name": "Mukesh Choudhary",
+      "team": "Chennai Super Kings",
+      "role_text": "Bowler",
+      "nationality": "Indian",
+      "price": "INR 0.30 Cr"
+    },
+    {
+      "name": "Nathan Ellis",
+      "team": "Chennai Super Kings",
+      "role_text": "Bowler",
+      "nationality": "Australian",
+      "price": "INR 2.00 Cr"
+    },
+    {
+      "name": "Shreyas Gopal",
+      "team": "Chennai Super Kings",
+      "role_text": "Bowler",
+      "nationality": "Indian",
+      "price": "INR 0.30 Cr"
+    },
+    {
+      "name": "Gurjapneet Singh",
+      "team": "Chennai Super Kings",
+      "role_text": "Bowler",
+      "nationality": "Indian",
+      "price": "INR 2.20 Cr"
+    },
+    {
+      "name": "Matt Henry",
+      "team": "Chennai Super Kings",
+      "role_text": "Fast Bowler",
+      "nationality": "New Zealand",
+      "price": "INR 2 Cr"
+    },
+    {
+      "name": "Rahul Chahar",
+      "team": "Chennai Super Kings",
+      "role_text": "Leg-spin Bowler",
+      "nationality": "India",
+      "price": "INR 5.2 Cr"
+    },
+    {
+      "name": "Zak Foulkes",
+      "team": "Chennai Super Kings",
+      "role_text": "Bowler",
+      "nationality": "New Zealand",
+      "price": "INR 75 Lakh"
+    },
+    {
+      "name": "Vipraj Nigam",
+      "team": "Delhi Capitals",
+      "role_text": "Bowler",
+      "nationality": "Indian",
+      "price": "INR 0.50 cr"
+    },
+    {
+      "name": "Tripurana Vijay",
+      "team": "Delhi Capitals",
+      "role_text": "Bowler",
+      "nationality": "Indian",
+      "price": "INR 0.30 cr"
+    },
+    {
+      "name": "Kuldeep Yadav",
+      "team": "Delhi Capitals",
+      "role_text": "Spinner",
+      "nationality": "Indian",
+      "price": "INR 13.25 cr"
+    },
+    {
+      "name": "Mitchell Starc",
+      "team": "Delhi Capitals",
+      "role_text": "Fast Bowler",
+      "nationality": "Australian",
+      "price": "INR 11.75 cr"
+    },
+    {
+      "name": "Mukesh Kumar",
+      "team": "Delhi Capitals",
+      "role_text": "Fast Bowler",
+      "nationality": "Indian",
+      "price": "INR 8.00 cr"
+    },
+    {
+      "name": "Dushmantha Chameera",
+      "team": "Delhi Capitals",
+      "role_text": "Fast Bowler",
+      "nationality": "Sri Lankan",
+      "price": "INR 0.75 cr"
+    },
+    {
+      "name": "T. Natrajan",
+      "team": "Delhi Capitals",
+      "role_text": "Fast Bowler",
+      "nationality": "Indian",
+      "price": "INR 10.75 cr"
+    },
+    {
+      "name": "Lungi Ngidi",
+      "team": "Delhi Capitals",
+      "role_text": "Fast Bowler",
+      "nationality": "South Africa",
+      "price": "INR 2 Cr"
+    },
+    {
+      "name": "Kyle Jamieson",
+      "team": "Delhi Capitals",
+      "role_text": "Fast Bowler",
+      "nationality": "New Zealand",
+      "price": "INR 2 Crore"
+    },
+    {
+      "name": "Mayank Markande",
+      "team": "Mumbai Indians",
+      "role_text": "Bowler",
+      "nationality": "Indian",
+      "price": "INR 0.30 cr"
+    },
+    {
+      "name": "Jasprit Bumrah",
+      "team": "Mumbai Indians",
+      "role_text": "Bowler",
+      "nationality": "Indian",
+      "price": "INR 18 cr"
+    },
+    {
+      "name": "Trent Boult",
+      "team": "Mumbai Indians",
+      "role_text": "Bowler",
+      "nationality": "New Zealander",
+      "price": "INR 12.5 cr"
+    },
+    {
+      "name": "Allah Ghazanfar",
+      "team": "Mumbai Indians",
+      "role_text": "Bowler",
+      "nationality": "Afghan",
+      "price": "INR 4.80 cr"
+    },
+    {
+      "name": "Ashwani Kumar",
+      "team": "Mumbai Indians",
+      "role_text": "Bowler",
+      "nationality": "Indian",
+      "price": "INR 0.30 cr"
+    },
+    {
+      "name": "Raghu Sharma",
+      "team": "Mumbai Indians",
+      "role_text": "Bowler",
+      "nationality": "Indian",
+      "price": "INR 0.30 cr"
+    },
+    {
+      "name": "Swapnil Singh",
+      "team": "Royal Challengers Bengaluru",
+      "role_text": "Bowler",
+      "nationality": "Indian",
+      "price": "INR 0.50 cr"
+    },
+    {
+      "name": "Josh Hazlewood",
+      "team": "Royal Challengers Bengaluru",
+      "role_text": "Fast Bowler",
+      "nationality": "Australian",
+      "price": "INR 12.50 cr"
+    },
+    {
+      "name": "Bhuvneshwar Kumar",
+      "team": "Royal Challengers Bengaluru",
+      "role_text": "Fast Bowler",
+      "nationality": "Indian",
+      "price": "INR 10.75 cr"
+    },
+    {
+      "name": "Rashik Dar",
+      "team": "Royal Challengers Bengaluru",
+      "role_text": "Bowler",
+      "nationality": "Indian",
+      "price": "INR 6.00 cr"
+    },
+    {
+      "name": "Suyash Sharma",
+      "team": "Royal Challengers Bengaluru",
+      "role_text": "Bowler",
+      "nationality": "Indian",
+      "price": "INR 2.60 cr"
+    },
+    {
+      "name": "Nuwan Thushara",
+      "team": "Royal Challengers Bengaluru",
+      "role_text": "Fast Bowler",
+      "nationality": "Sri Lankan",
+      "price": "INR 1.60 cr"
+    },
+    {
+      "name": "Yash Dayal",
+      "team": "Royal Challengers Bengaluru",
+      "role_text": "Fast Bowler",
+      "nationality": "Indian",
+      "price": "INR 5.00 cr"
+    },
+    {
+      "name": "Jacob Duffy",
+      "team": "Royal Challengers Bengaluru",
+      "role_text": "Fast Bowler",
+      "nationality": "New Zealand",
+      "price": "INR 2 Cr"
+    },
+    {
+      "name": "Varun Chakravarthy",
+      "team": "Kolkata Knight Riders",
+      "role_text": "Bowler (Spinner)",
+      "nationality": "Indian",
+      "price": "INR 12 Cr"
+    },
+    {
+      "name": "Harshit Rana",
+      "team": "Kolkata Knight Riders",
+      "role_text": "Bowler",
+      "nationality": "Indian",
+      "price": "INR 4 Cr"
+    },
+    {
+      "name": "Vaibhav Arora",
+      "team": "Kolkata Knight Riders",
+      "role_text": "Bowler",
+      "nationality": "Indian",
+      "price": "INR 1.80 Cr"
+    },
+    {
+      "name": "Umran Malik",
+      "team": "Kolkata Knight Riders",
+      "role_text": "Bowler",
+      "nationality": "Indian",
+      "price": "INR 0.75 Cr"
+    },
+    {
+      "name": "Matheesha Pathirana",
+      "team": "Kolkata Knight Riders",
+      "role_text": "Fast Bowler",
+      "nationality": "Sri Lanka",
+      "price": "INR 18 Cr"
+    },
+    {
+      "name": "Mustafizur Rahman",
+      "team": "Kolkata Knight Riders",
+      "role_text": "Fast Bowler",
+      "nationality": "Bangladesh",
+      "price": "INR 9.2 Cr"
+    },
+    {
+      "name": "Prashant Solanki",
+      "team": "Kolkata Knight Riders",
+      "role_text": "Leg-spin Bowler",
+      "nationality": "India",
+      "price": "INR 30 Lakh"
+    },
+    {
+      "name": "Kartik Tyagi",
+      "team": "Kolkata Knight Riders",
+      "role_text": "Fast Bowler",
+      "nationality": "India",
+      "price": "INR 30 Lakh"
+    },
+    {
+      "name": "Akash Deep",
+      "team": "Kolkata Knight Riders",
+      "role_text": "Fast Bowler",
+      "nationality": "India",
+      "price": "INR 1 Cr"
+    },
+    {
+      "name": "Shabaz Ahmed",
+      "team": "Lucknow Super Giants",
+      "role_text": "Bowler",
+      "nationality": "Indian",
+      "price": "INR 2.40 cr"
+    },
+    {
+      "name": "Mayank Yadav",
+      "team": "Lucknow Super Giants",
+      "role_text": "Bowler",
+      "nationality": "Indian",
+      "price": "INR 11.00 cr"
+    },
+    {
+      "name": "Mohammed Shami",
+      "team": "Lucknow Super Giants",
+      "role_text": "Fast Bowler",
+      "nationality": "Indian",
+      "price": "INR 10.00 cr"
+    },
+    {
+      "name": "Avesh Khan",
+      "team": "Lucknow Super Giants",
+      "role_text": "Fast Bowler",
+      "nationality": "Indian",
+      "price": "INR 9.75 cr"
+    },
+    {
+      "name": "Digvesh Singh",
+      "team": "Lucknow Super Giants",
+      "role_text": "Bowler",
+      "nationality": "Indian",
+      "price": "INR 0.30 cr"
+    },
+    {
+      "name": "Mohsin Khan",
+      "team": "Lucknow Super Giants",
+      "role_text": "Bowler",
+      "nationality": "Indian",
+      "price": "INR 4.00 cr"
+    },
+    {
+      "name": "Siddharth Manimaran",
+      "team": "Lucknow Super Giants",
+      "role_text": "Bowler",
+      "nationality": "Indian",
+      "price": "INR 0.75 cr"
+    },
+    {
+      "name": "Akash Singh",
+      "team": "Lucknow Super Giants",
+      "role_text": "Fast Bowler",
+      "nationality": "Indian",
+      "price": "INR 0.30 cr"
+    },
+    {
+      "name": "Arjun Tendulkar",
+      "team": "Lucknow Super Giants",
+      "role_text": "Fast Bowler",
+      "nationality": "Indian",
+      "price": "INR 0.30 cr"
+    },
+    {
+      "name": "Mukul Choudhary",
+      "team": "Lucknow Super Giants",
+      "role_text": "Fast Bowler",
+      "nationality": "India",
+      "price": "INR 2.6 Cr"
+    },
+    {
+      "name": "Anrich Nortje",
+      "team": "Lucknow Super Giants",
+      "role_text": "Fast Bowler",
+      "nationality": "South Africa",
+      "price": "INR 2 Cr"
+    },
+    {
+      "name": "Nishanth Sindhu",
+      "team": "Gujarat Titans",
+      "role_text": "Bowler",
+      "nationality": "Indian",
+      "price": "INR 0.30 cr"
+    },
+    {
+      "name": "Rashid Khan",
+      "team": "Gujarat Titans",
+      "role_text": "Spinner",
+      "nationality": "Afghan",
+      "price": "INR 18.00 cr"
+    },
+    {
+      "name": "Mohammed Siraj",
+      "team": "Gujarat Titans",
+      "role_text": "Fast Bowler",
+      "nationality": "Indian",
+      "price": "INR 12.50 cr"
+    },
+    {
+      "name": "Kagiso Rabada",
+      "team": "Gujarat Titans",
+      "role_text": "Fast Bowler",
+      "nationality": "South African",
+      "price": "INR 10.75 cr"
+    },
+    {
+      "name": "Prasidh Krishna",
+      "team": "Gujarat Titans",
+      "role_text": "Fast Bowler",
+      "nationality": "Indian",
+      "price": "INR 9.50 cr"
+    },
+    {
+      "name": "Sai Kishore",
+      "team": "Gujarat Titans",
+      "role_text": "Spinner",
+      "nationality": "Indian",
+      "price": "INR 2.00 cr"
+    },
+    {
+      "name": "Gurnoor Singh Brar",
+      "team": "Gujarat Titans",
+      "role_text": "Bowler",
+      "nationality": "Indian",
+      "price": "INR 1.30 cr"
+    },
+    {
+      "name": "Arshad Khan",
+      "team": "Gujarat Titans",
+      "role_text": "Bowler",
+      "nationality": "Indian",
+      "price": "INR 1.30 cr"
+    },
+    {
+      "name": "Ishanth Sharma",
+      "team": "Gujarat Titans",
+      "role_text": "Fast Bowler",
+      "nationality": "Indian",
+      "price": "INR 0.75 cr"
+    },
+    {
+      "name": "Luke Wood",
+      "team": "Gujarat Titans",
+      "role_text": "Fast Bowler",
+      "nationality": "England",
+      "price": "INR 75 Lakh"
+    },
+    {
+      "name": "Harsh Dubey",
+      "team": "Sunrisers Hyderabad",
+      "role_text": "Bowler",
+      "nationality": "Indian",
+      "price": "INR 0.30 cr"
+    },
+    {
+      "name": "Ishan Malinga",
+      "team": "Sunrisers Hyderabad",
+      "role_text": "Bowler",
+      "nationality": "Sri Lankan",
+      "price": "INR 1.20 cr"
+    },
+    {
+      "name": "Jaydev Unadkat",
+      "team": "Sunrisers Hyderabad",
+      "role_text": "Bowler",
+      "nationality": "Indian",
+      "price": "INR 1.00 cr"
+    },
+    {
+      "name": "Jeeshan Ansari",
+      "team": "Sunrisers Hyderabad",
+      "role_text": "Bowler",
+      "nationality": "Indian",
+      "price": "INR 0.40 cr"
+    },
+    {
+      "name": "Shivam Mavi",
+      "team": "Sunrisers Hyderabad",
+      "role_text": "Fast Bowler",
+      "nationality": "India",
+      "price": "INR 75 Lakh"
+    },
+    {
+      "name": "Jofra Archer",
+      "team": "Rajasthan Royals",
+      "role_text": "Fast Bowler",
+      "nationality": "English",
+      "price": "INR 12.50 cr"
+    },
+    {
+      "name": "Sandeep Sharma",
+      "team": "Rajasthan Royals",
+      "role_text": "Fast Bowler",
+      "nationality": "Indian",
+      "price": "INR 4.00 cr"
+    },
+    {
+      "name": "Yudhvir Singh",
+      "team": "Rajasthan Royals",
+      "role_text": "Bowler",
+      "nationality": "Indian",
+      "price": "INR 0.35 cr"
+    },
+    {
+      "name": "Nandre Burger",
+      "team": "Rajasthan Royals",
+      "role_text": "Fast Bowler",
+      "nationality": "South African",
+      "price": "INR 3.5 cr"
+    },
+    {
+      "name": "Kwena Maphaka",
+      "team": "Rajasthan Royals",
+      "role_text": "Bowler",
+      "nationality": "South African",
+      "price": "INR 1.50 cr"
+    },
+    {
+      "name": "Ravi Bishnoi",
+      "team": "Rajasthan Royals",
+      "role_text": "Leg-spin Bowler",
+      "nationality": "India",
+      "price": "INR 7.4 Cr"
+    },
+    {
+      "name": "Adam Milne",
+      "team": "Rajasthan Royals",
+      "role_text": "Fast Bowler",
+      "nationality": "New Zealand",
+      "price": "INR 2.4 Cr"
+    },
+    {
+      "name": "Sushant Mishra",
+      "team": "Rajasthan Royals",
+      "role_text": "Fast Bowler",
+      "nationality": "India",
+      "price": "INR 90 Lakh"
+    },
+    {
+      "name": "Kuldeep Sen",
+      "team": "Rajasthan Royals",
+      "role_text": "Fast Bowler",
+      "nationality": "India",
+      "price": "INR 75 Lakh"
+    },
+    {
+      "name": "Arshdeep Singh",
+      "team": "Punjab Kings",
+      "role_text": "Fast Bowler",
+      "nationality": "Indian",
+      "price": "INR 18.00 cr"
+    },
+    {
+      "name": "Yuzvendra Chahal",
+      "team": "Punjab Kings",
+      "role_text": "Spinner",
+      "nationality": "Indian",
+      "price": "INR 18.00 cr"
+    },
+    {
+      "name": "Lockie Ferguson",
+      "team": "Punjab Kings",
+      "role_text": "Fast Bowler",
+      "nationality": "New Zealander",
+      "price": "INR 2.00 cr"
+    },
+    {
+      "name": "Vyshak Vijaykumar",
+      "team": "Punjab Kings",
+      "role_text": "Bowler",
+      "nationality": "Indian",
+      "price": "INR 1.80 cr"
+    },
+    {
+      "name": "Yash Thakur",
+      "team": "Punjab Kings",
+      "role_text": "Bowler",
+      "nationality": "Indian",
+      "price": "INR 1.80 cr"
+    },
+    {
+      "name": "Xavier Bartlett",
+      "team": "Punjab Kings",
+      "role_text": "Fast Bowler",
+      "nationality": "Australian",
+      "price": "INR 0.80 cr"
+    },
+    {
+      "name": "Ben Dwarshuis",
+      "team": "Punjab Kings",
+      "role_text": "Fast Bowler",
+      "nationality": "Australia",
+      "price": "INR 4.4 Cr"
+    },
+    {
+      "name": "Khaleel Ahmed",
+      "team": "Punjab Kings",
+      "role_text": "Bowler",
+      "nationality": "Indian",
+      "price": "INR 4.80 Cr"
+    },
+    {
+      "name": "Anshul Kamboj",
+      "team": "Punjab Kings",
+      "role_text": "Bowler",
+      "nationality": "Indian",
+      "price": "INR 3.40 Cr"
+    },
+    {
+      "name": "Noor Ahmad",
+      "team": "Punjab Kings",
+      "role_text": "Bowler (Spinner)",
+      "nationality": "Afghan",
+      "price": "INR 10.00 Cr"
+    },
+    {
+      "name": "Mukesh Choudhary",
+      "team": "Punjab Kings",
+      "role_text": "Bowler",
+      "nationality": "Indian",
+      "price": "INR 0.30 Cr"
+    },
+    {
+      "name": "Nathan Ellis",
+      "team": "Punjab Kings",
+      "role_text": "Bowler",
+      "nationality": "Australian",
+      "price": "INR 2.00 Cr"
+    },
+    {
+      "name": "Shreyas Gopal",
+      "team": "Punjab Kings",
+      "role_text": "Bowler",
+      "nationality": "Indian",
+      "price": "INR 0.30 Cr"
+    },
+    {
+      "name": "Gurjapneet Singh",
+      "team": "Punjab Kings",
+      "role_text": "Bowler",
+      "nationality": "Indian",
+      "price": "INR 2.20 Cr"
+    },
+    {
+      "name": "Mayank Markande (trade from KKR)",
+      "team": "Punjab Kings",
+      "role_text": "Bowler",
+      "nationality": "Indian",
+      "price": "INR 0.30 cr"
+    },
+    {
+      "name": "Jasprit Bumrah",
+      "team": "Punjab Kings",
+      "role_text": "Bowler",
+      "nationality": "Indian",
+      "price": "INR 18 cr"
+    },
+    {
+      "name": "Trent Boult",
+      "team": "Punjab Kings",
+      "role_text": "Bowler",
+      "nationality": "New Zealander",
+      "price": "INR 12.5 cr"
+    },
+    {
+      "name": "Allah Ghazanfar",
+      "team": "Punjab Kings",
+      "role_text": "Bowler",
+      "nationality": "Afghan",
+      "price": "INR 4.80 cr"
+    },
+    {
+      "name": "Ashwani Kumar",
+      "team": "Punjab Kings",
+      "role_text": "Bowler",
+      "nationality": "Indian",
+      "price": "INR 0.30 cr"
+    },
+    {
+      "name": "Raghu Sharma",
+      "team": "Punjab Kings",
+      "role_text": "Bowler",
+      "nationality": "Indian",
+      "price": "INR 0.30 cr"
+    },
+    {
+      "name": "Varun Chakravarthy",
+      "team": "Punjab Kings",
+      "role_text": "Bowler (Spinner)",
+      "nationality": "Indian",
+      "price": "INR 12 Cr"
+    },
+    {
+      "name": "Harshit Rana",
+      "team": "Punjab Kings",
+      "role_text": "Bowler",
+      "nationality": "Indian",
+      "price": "INR 4 Cr"
+    },
+    {
+      "name": "Vaibhav Arora",
+      "team": "Punjab Kings",
+      "role_text": "Bowler",
+      "nationality": "Indian",
+      "price": "INR 1.80 Cr"
+    },
+    {
+      "name": "Umran Malik",
+      "team": "Punjab Kings",
+      "role_text": "Bowler",
+      "nationality": "Indian",
+      "price": "INR 0.75 Cr"
+    },
+    {
+      "name": "Swapnil Singh",
+      "team": "Punjab Kings",
+      "role_text": "Bowler",
+      "nationality": "Indian",
+      "price": "INR 0.50 cr"
+    },
+    {
+      "name": "Josh Hazlewood",
+      "team": "Punjab Kings",
+      "role_text": "Fast Bowler",
+      "nationality": "Australian",
+      "price": "INR 12.50 cr"
+    },
+    {
+      "name": "Bhuvneshwar Kumar",
+      "team": "Punjab Kings",
+      "role_text": "Fast Bowler",
+      "nationality": "Indian",
+      "price": "INR 10.75 cr"
+    },
+    {
+      "name": "Rashik Dar",
+      "team": "Punjab Kings",
+      "role_text": "Bowler",
+      "nationality": "Indian",
+      "price": "INR 6.00 cr"
+    },
+    {
+      "name": "Suyash Sharma",
+      "team": "Punjab Kings",
+      "role_text": "Bowler",
+      "nationality": "Indian",
+      "price": "INR 2.60 cr"
+    },
+    {
+      "name": "Nuwan Thushara",
+      "team": "Punjab Kings",
+      "role_text": "Fast Bowler",
+      "nationality": "Sri Lankan",
+      "price": "INR 1.60 cr"
+    },
+    {
+      "name": "Yash Dayal",
+      "team": "Punjab Kings",
+      "role_text": "Fast Bowler",
+      "nationality": "Indian",
+      "price": "INR 5.00 cr"
+    },
+    {
+      "name": "Vipraj Nigam",
+      "team": "Punjab Kings",
+      "role_text": "Bowler",
+      "nationality": "Indian",
+      "price": "INR 0.50 cr"
+    },
+    {
+      "name": "Tripurana Vijay",
+      "team": "Punjab Kings",
+      "role_text": "Bowler",
+      "nationality": "Indian",
+      "price": "INR 0.30 cr"
+    },
+    {
+      "name": "Kuldeep Yadav",
+      "team": "Punjab Kings",
+      "role_text": "Spinner",
+      "nationality": "Indian",
+      "price": "INR 13.25 cr"
+    },
+    {
+      "name": "Mitchell Starc",
+      "team": "Punjab Kings",
+      "role_text": "Fast Bowler",
+      "nationality": "Australian",
+      "price": "INR 11.75 cr"
+    },
+    {
+      "name": "Mukesh Kumar",
+      "team": "Punjab Kings",
+      "role_text": "Fast Bowler",
+      "nationality": "Indian",
+      "price": "INR 8.00 cr"
+    },
+    {
+      "name": "Dushmantha Chameera",
+      "team": "Punjab Kings",
+      "role_text": "Fast Bowler",
+      "nationality": "Sri Lankan",
+      "price": "INR 0.75 cr"
+    },
+    {
+      "name": "T. Natrajan",
+      "team": "Punjab Kings",
+      "role_text": "Fast Bowler",
+      "nationality": "Indian",
+      "price": "INR 10.75 cr"
+    },
+    {
+      "name": "Arshdeep Singh",
+      "team": "Punjab Kings",
+      "role_text": "Fast Bowler",
+      "nationality": "Indian",
+      "price": "INR 18.00 cr"
+    },
+    {
+      "name": "Yuzvendra Chahal",
+      "team": "Punjab Kings",
+      "role_text": "Spinner",
+      "nationality": "Indian",
+      "price": "INR 18.00 cr"
+    },
+    {
+      "name": "Lockie Ferguson",
+      "team": "Punjab Kings",
+      "role_text": "Fast Bowler",
+      "nationality": "New Zealander",
+      "price": "INR 2.00 cr"
+    },
+    {
+      "name": "Vyshak Vijaykumar",
+      "team": "Punjab Kings",
+      "role_text": "Bowler",
+      "nationality": "Indian",
+      "price": "INR 1.80 cr"
+    },
+    {
+      "name": "Yash Thakur",
+      "team": "Punjab Kings",
+      "role_text": "Bowler",
+      "nationality": "Indian",
+      "price": "INR 1.80 cr"
+    },
+    {
+      "name": "Xavier Bartlett",
+      "team": "Punjab Kings",
+      "role_text": "Fast Bowler",
+      "nationality": "Australian",
+      "price": "INR 0.80 cr"
+    },
+    {
+      "name": "Harsh Dubey",
+      "team": "Punjab Kings",
+      "role_text": "Bowler",
+      "nationality": "Indian",
+      "price": "INR 0.30 cr"
+    },
+    {
+      "name": "Ishan Malinga",
+      "team": "Punjab Kings",
+      "role_text": "Bowler",
+      "nationality": "Sri Lankan",
+      "price": "INR 1.20 cr"
+    },
+    {
+      "name": "Jaydev Unadkat",
+      "team": "Punjab Kings",
+      "role_text": "Bowler",
+      "nationality": "Indian",
+      "price": "INR 1.00 cr"
+    },
+    {
+      "name": "Jeeshan Ansari",
+      "team": "Punjab Kings",
+      "role_text": "Bowler",
+      "nationality": "Indian",
+      "price": "INR 0.40 cr"
+    },
+    {
+      "name": "Nishanth Sindhu",
+      "team": "Punjab Kings",
+      "role_text": "Bowler",
+      "nationality": "Indian",
+      "price": "INR 0.30 cr"
+    },
+    {
+      "name": "Rashid Khan",
+      "team": "Punjab Kings",
+      "role_text": "Spinner",
+      "nationality": "Afghan",
+      "price": "INR 18.00 cr"
+    },
+    {
+      "name": "Mohammed Siraj",
+      "team": "Punjab Kings",
+      "role_text": "Fast Bowler",
+      "nationality": "Indian",
+      "price": "INR 12.50 cr"
+    },
+    {
+      "name": "Kagiso Rabada",
+      "team": "Punjab Kings",
+      "role_text": "Fast Bowler",
+      "nationality": "South African",
+      "price": "INR 10.75 cr"
+    },
+    {
+      "name": "Prasidh Krishna",
+      "team": "Punjab Kings",
+      "role_text": "Fast Bowler",
+      "nationality": "Indian",
+      "price": "INR 9.50 cr"
+    },
+    {
+      "name": "Sai Kishore",
+      "team": "Punjab Kings",
+      "role_text": "Spinner",
+      "nationality": "Indian",
+      "price": "INR 2.00 cr"
+    },
+    {
+      "name": "Gurnoor Singh Brar",
+      "team": "Punjab Kings",
+      "role_text": "Bowler",
+      "nationality": "Indian",
+      "price": "INR 1.30 cr"
+    },
+    {
+      "name": "Arshad Khan",
+      "team": "Punjab Kings",
+      "role_text": "Bowler",
+      "nationality": "Indian",
+      "price": "INR 1.30 cr"
+    },
+    {
+      "name": "Ishanth Sharma",
+      "team": "Punjab Kings",
+      "role_text": "Fast Bowler",
+      "nationality": "Indian",
+      "price": "INR 0.75 cr"
+    },
+    {
+      "name": "Shabaz Ahmed",
+      "team": "Punjab Kings",
+      "role_text": "Bowler",
+      "nationality": "Indian",
+      "price": "INR 2.40 cr"
+    },
+    {
+      "name": "Mayank Yadav",
+      "team": "Punjab Kings",
+      "role_text": "Bowler",
+      "nationality": "Indian",
+      "price": "INR 11.00 cr"
+    },
+    {
+      "name": "Mohammed Shami",
+      "team": "Punjab Kings",
+      "role_text": "Fast Bowler",
+      "nationality": "Indian",
+      "price": "INR 10.00 cr"
+    },
+    {
+      "name": "Avesh Khan",
+      "team": "Punjab Kings",
+      "role_text": "Fast Bowler",
+      "nationality": "Indian",
+      "price": "INR 9.75 cr"
+    },
+    {
+      "name": "Digvesh Singh",
+      "team": "Punjab Kings",
+      "role_text": "Bowler",
+      "nationality": "Indian",
+      "price": "INR 0.30 cr"
+    },
+    {
+      "name": "Mohsin Khan",
+      "team": "Punjab Kings",
+      "role_text": "Bowler",
+      "nationality": "Indian",
+      "price": "INR 4.00 cr"
+    },
+    {
+      "name": "Siddharth Manimaran",
+      "team": "Punjab Kings",
+      "role_text": "Bowler",
+      "nationality": "Indian",
+      "price": "INR 0.75 cr"
+    },
+    {
+      "name": "Akash Singh",
+      "team": "Punjab Kings",
+      "role_text": "Fast Bowler",
+      "nationality": "Indian",
+      "price": "INR 0.30 cr"
+    },
+    {
+      "name": "Arjun Tendulkar",
+      "team": "Punjab Kings",
+      "role_text": "Fast Bowler",
+      "nationality": "Indian",
+      "price": "INR 0.30 cr"
+    },
+    {
+      "name": "Jofra Archer",
+      "team": "Punjab Kings",
+      "role_text": "Fast Bowler",
+      "nationality": "English",
+      "price": "INR 12.50 cr"
+    },
+    {
+      "name": "Sandeep Sharma",
+      "team": "Punjab Kings",
+      "role_text": "Fast Bowler",
+      "nationality": "Indian",
+      "price": "INR 4.00 cr"
+    },
+    {
+      "name": "Yudhvir Singh",
+      "team": "Punjab Kings",
+      "role_text": "Bowler",
+      "nationality": "Indian",
+      "price": "INR 0.35 cr"
+    },
+    {
+      "name": "Nandre Burger",
+      "team": "Punjab Kings",
+      "role_text": "Fast Bowler",
+      "nationality": "South African",
+      "price": "INR 3.5 cr"
+    },
+    {
+      "name": "Kwena Maphaka",
+      "team": "Punjab Kings",
+      "role_text": "Bowler",
+      "nationality": "South African",
+      "price": "INR 1.50 cr"
+    }
+  ],
+  "all_rounders": [
+    {
+      "name": "Jamie Overton",
+      "team": "Chennai Super Kings",
+      "role_text": "All‑rounder",
+      "nationality": "English",
+      "price": "INR 1.50 Cr"
+    },
+    {
+      "name": "Ramakrishna Ghosh",
+      "team": "Chennai Super Kings",
+      "role_text": "All‑rounder",
+      "nationality": "Indian",
+      "price": "INR 0.30 Cr"
+    },
+    {
+      "name": "Shivam Dube",
+      "team": "Chennai Super Kings",
+      "role_text": "All‑rounder",
+      "nationality": "Indian",
+      "price": "INR 12.00 Cr"
+    },
+    {
+      "name": "Prashant Veer",
+      "team": "Chennai Super Kings",
+      "role_text": "All-rounder",
+      "nationality": "India",
+      "price": "INR 14.20 Cr"
+    },
+    {
+      "name": "Akeal Hosein",
+      "team": "Chennai Super Kings",
+      "role_text": "All-rounder",
+      "nationality": "West Indies",
+      "price": "INR 2 Cr"
+    },
+    {
+      "name": "Matthew Short",
+      "team": "Chennai Super Kings",
+      "role_text": "All-rounder",
+      "nationality": "Australia",
+      "price": "INR 1.5 Cr"
+    },
+    {
+      "name": "Aman Khan",
+      "team": "Chennai Super Kings",
+      "role_text": "All-rounder",
+      "nationality": "India",
+      "price": "INR 40 Lakh"
+    },
+    {
+      "name": "Abhishek Porel",
+      "team": "Delhi Capitals",
+      "role_text": "All‑rounder",
+      "nationality": "Indian",
+      "price": "INR 4.00 cr"
+    },
+    {
+      "name": "Axar Patel",
+      "team": "Delhi Capitals",
+      "role_text": "All‑rounder",
+      "nationality": "Indian",
+      "price": "INR 16.25 cr"
+    },
+    {
+      "name": "Ashutosh Sharma",
+      "team": "Delhi Capitals",
+      "role_text": "All‑rounder",
+      "nationality": "Indian",
+      "price": "INR 3.80 cr"
+    },
+    {
+      "name": "Madhav Tiwari",
+      "team": "Delhi Capitals",
+      "role_text": "All‑rounder",
+      "nationality": "Indian",
+      "price": "INR 0.40 cr"
+    },
+    {
+      "name": "Ajay Mandal",
+      "team": "Delhi Capitals",
+      "role_text": "All‑rounder",
+      "nationality": "Indian",
+      "price": "INR 0.30 cr"
+    },
+    {
+      "name": "Hardik Pandya (C)",
+      "team": "Mumbai Indians",
+      "role_text": "All‑rounder",
+      "nationality": "Indian",
+      "price": "INR 16.35 cr"
+    },
+    {
+      "name": "Deepak Chahar",
+      "team": "Mumbai Indians",
+      "role_text": "Bowling All-rounder",
+      "nationality": "Indian",
+      "price": "INR 9.25 cr"
+    },
+    {
+      "name": "Will Jacks",
+      "team": "Mumbai Indians",
+      "role_text": "All‑rounder",
+      "nationality": "English",
+      "price": "INR 5.25 cr"
+    },
+    {
+      "name": "Mitchell Santner",
+      "team": "Mumbai Indians",
+      "role_text": "All‑rounder",
+      "nationality": "New Zealander",
+      "price": "INR 2 cr"
+    },
+    {
+      "name": "Naman Dhir",
+      "team": "Mumbai Indians",
+      "role_text": "All‑rounder",
+      "nationality": "Indian",
+      "price": "INR 5.25 cr"
+    },
+    {
+      "name": "Raj Angad Bawa",
+      "team": "Mumbai Indians",
+      "role_text": "All‑rounder",
+      "nationality": "Indian",
+      "price": "INR 0.30 cr"
+    },
+    {
+      "name": "Corbin Bosch",
+      "team": "Mumbai Indians",
+      "role_text": "All‑rounder",
+      "nationality": "South African",
+      "price": "INR 0.30 cr"
+    },
+    {
+      "name": "Sherfane Rutherford",
+      "team": "Mumbai Indians",
+      "role_text": "All‑rounder",
+      "nationality": "West Indian",
+      "price": "INR 2.60 cr"
+    },
+    {
+      "name": "Shardul Thakur",
+      "team": "Mumbai Indians",
+      "role_text": "Bowling All-rounder",
+      "nationality": "Indian",
+      "price": "INR 2 cr"
+    },
+    {
+      "name": "Atharva Ankolekar",
+      "team": "Mumbai Indians",
+      "role_text": "All-rounder",
+      "nationality": "India",
+      "price": "INR 30 Lakhs"
+    },
+    {
+      "name": "Tim David",
+      "team": "Royal Challengers Bengaluru",
+      "role_text": "Batting All-rounder",
+      "nationality": "Australian",
+      "price": "INR 3.00 cr"
+    },
+    {
+      "name": "Krunal Pandya",
+      "team": "Royal Challengers Bengaluru",
+      "role_text": "All‑rounder",
+      "nationality": "Indian",
+      "price": "INR 5.75 cr"
+    },
+    {
+      "name": "Jacob Bethell",
+      "team": "Royal Challengers Bengaluru",
+      "role_text": "All‑rounder",
+      "nationality": "English",
+      "price": "INR 2.60 cr"
+    },
+    {
+      "name": "Romario Shepherd",
+      "team": "Royal Challengers Bengaluru",
+      "role_text": "All‑rounder",
+      "nationality": "West Indies",
+      "price": "INR 1.50 cr"
+    },
+    {
+      "name": "Abinandhan Singh",
+      "team": "Royal Challengers Bengaluru",
+      "role_text": "All‑rounder",
+      "nationality": "Indian",
+      "price": "INR 0.30 cr"
+    },
+    {
+      "name": "Venkatesh Iyer",
+      "team": "Royal Challengers Bengaluru",
+      "role_text": "All-rounder",
+      "nationality": "India",
+      "price": "INR 7 Cr"
+    },
+    {
+      "name": "Mangesh Yadav",
+      "team": "Royal Challengers Bengaluru",
+      "role_text": "All-rounder",
+      "nationality": "India",
+      "price": "INR 5.2 Cr"
+    },
+    {
+      "name": "Sunil Narine",
+      "team": "Kolkata Knight Riders",
+      "role_text": "All‑rounder",
+      "nationality": "West Indies",
+      "price": "INR 12 Cr"
+    },
+    {
+      "name": "Anukul Roy",
+      "team": "Kolkata Knight Riders",
+      "role_text": "All‑rounder",
+      "nationality": "Indian",
+      "price": "INR 0.40 Cr"
+    },
+    {
+      "name": "Cameron Green",
+      "team": "Kolkata Knight Riders",
+      "role_text": "All-rounder",
+      "nationality": "Australia",
+      "price": "INR 25.20 Cr"
+    },
+    {
+      "name": "Rachin Ravindra",
+      "team": "Kolkata Knight Riders",
+      "role_text": "All-rounder",
+      "nationality": "New Zealand",
+      "price": "INR 2 Cr"
+    },
+    {
+      "name": "Abdul Samad",
+      "team": "Lucknow Super Giants",
+      "role_text": "Batting All‑rounder",
+      "nationality": "Indian",
+      "price": "INR 4.20 cr"
+    },
+    {
+      "name": "Mitchell Marsh",
+      "team": "Lucknow Super Giants",
+      "role_text": "All‑rounder",
+      "nationality": "Australian",
+      "price": "INR 3.40 cr"
+    },
+    {
+      "name": "Arshin Kulkarni",
+      "team": "Lucknow Super Giants",
+      "role_text": "All‑rounder",
+      "nationality": "Indian",
+      "price": "INR 0.30 cr"
+    },
+    {
+      "name": "Prince Yadav",
+      "team": "Lucknow Super Giants",
+      "role_text": "All‑rounder",
+      "nationality": "Indian",
+      "price": "INR 0.30 cr"
+    },
+    {
+      "name": "Wanindu Hasaranga",
+      "team": "Lucknow Super Giants",
+      "role_text": "All-rounder",
+      "nationality": "Sri Lanka",
+      "price": "INR 2 Cr"
+    },
+    {
+      "name": "Rahul Tewatia",
+      "team": "Gujarat Titans",
+      "role_text": "All‑rounder",
+      "nationality": "Indian",
+      "price": "INR 4.00 cr"
+    },
+    {
+      "name": "Washington Sundar",
+      "team": "Gujarat Titans",
+      "role_text": "All‑rounder",
+      "nationality": "Indian",
+      "price": "INR 3.20 cr"
+    },
+    {
+      "name": "Jayant Yadav",
+      "team": "Gujarat Titans",
+      "role_text": "All‑rounder",
+      "nationality": "Indian",
+      "price": "INR 0.75 cr"
+    },
+    {
+      "name": "Glenn Phillips",
+      "team": "Gujarat Titans",
+      "role_text": "All-rounder",
+      "nationality": "New Zealand",
+      "price": "INR 2.00 cr"
+    },
+    {
+      "name": "Manav Suthar",
+      "team": "Gujarat Titans",
+      "role_text": "All‑rounder",
+      "nationality": "Indian",
+      "price": "INR 0.30 cr"
+    },
+    {
+      "name": "Jason Holder",
+      "team": "Gujarat Titans",
+      "role_text": "All-rounder",
+      "nationality": "West Indies",
+      "price": "INR 7 Cr"
+    },
+    {
+      "name": "Smaran Ravichandran",
+      "team": "Sunrisers Hyderabad",
+      "role_text": "All‑rounder",
+      "nationality": "Indian",
+      "price": "INR 0.30 cr"
+    },
+    {
+      "name": "Abhishek Sharma",
+      "team": "Sunrisers Hyderabad",
+      "role_text": "All‑rounder / Batter",
+      "nationality": "Indian",
+      "price": "INR 14.00 cr"
+    },
+    {
+      "name": "Nitish Kumar Reddy",
+      "team": "Sunrisers Hyderabad",
+      "role_text": "All‑rounder",
+      "nationality": "Indian",
+      "price": "INR 6.00 cr"
+    },
+    {
+      "name": "Kamindu Mendis",
+      "team": "Sunrisers Hyderabad",
+      "role_text": "All‑rounder",
+      "nationality": "Sri Lankan",
+      "price": "INR 0.75 cr"
+    },
+    {
+      "name": "Brydon Carse",
+      "team": "Sunrisers Hyderabad",
+      "role_text": "All‑rounder",
+      "nationality": "English",
+      "price": "INR 1.00 cr"
+    },
+    {
+      "name": "Pat Cummins",
+      "team": "Sunrisers Hyderabad",
+      "role_text": "Bowling all-rounder",
+      "nationality": "Australian",
+      "price": "INR 18.00 cr"
+    },
+    {
+      "name": "Harshal Patel",
+      "team": "Sunrisers Hyderabad",
+      "role_text": "All‑rounder",
+      "nationality": "Indian",
+      "price": "INR 8.00 cr"
+    },
+    {
+      "name": "Liam Livingstone",
+      "team": "Sunrisers Hyderabad",
+      "role_text": "All-rounder",
+      "nationality": "England",
+      "price": "INR 13 Cr"
+    },
+    {
+      "name": "Jack Edwards",
+      "team": "Sunrisers Hyderabad",
+      "role_text": "All-rounder",
+      "nationality": "Australia",
+      "price": "INR 3 Cr"
+    },
+    {
+      "name": "Shubham Dube",
+      "team": "Rajasthan Royals",
+      "role_text": "All‑rounder",
+      "nationality": "Indian",
+      "price": "INR 0.30 cr"
+    },
+    {
+      "name": "Lhuan-dre Pretorius",
+      "team": "Rajasthan Royals",
+      "role_text": "All‑rounder",
+      "nationality": "South African",
+      "price": "INR 0.30 cr"
+    },
+    {
+      "name": "Riyan Parag",
+      "team": "Rajasthan Royals",
+      "role_text": "All‑rounder",
+      "nationality": "Indian",
+      "price": "INR 14.00 cr"
+    },
+    {
+      "name": "Ravindra Jadeja",
+      "team": "Rajasthan Royals",
+      "role_text": "All‑rounder",
+      "nationality": "Indian",
+      "price": "INR 14.00 cr"
+    },
+    {
+      "name": "Sam Curran",
+      "team": "Rajasthan Royals",
+      "role_text": "All‑rounder",
+      "nationality": "English",
+      "price": "INR 2.60 cr"
+    },
+    {
+      "name": "Thushar Deshpande",
+      "team": "Rajasthan Royals",
+      "role_text": "All‑rounder",
+      "nationality": "Indian",
+      "price": "INR 6.50 cr"
+    },
+    {
+      "name": "Priyansh Arya",
+      "team": "Punjab Kings",
+      "role_text": "All‑rounder",
+      "nationality": "Indian",
+      "price": "INR 3.80 cr"
+    },
+    {
+      "name": "Pila Avinash",
+      "team": "Punjab Kings",
+      "role_text": "All‑rounder",
+      "nationality": "Indian",
+      "price": "INR 0.30 cr"
+    },
+    {
+      "name": "Musheer Khan",
+      "team": "Punjab Kings",
+      "role_text": "All‑rounder",
+      "nationality": "Indian",
+      "price": "INR 0.30 cr"
+    },
+    {
+      "name": "Marcus Stoinis",
+      "team": "Punjab Kings",
+      "role_text": "All‑rounder",
+      "nationality": "Australian",
+      "price": "INR 11.00 cr"
+    },
+    {
+      "name": "Marco Jansen",
+      "team": "Punjab Kings",
+      "role_text": "All‑rounder",
+      "nationality": "South African",
+      "price": "INR 2.00 cr"
+    },
+    {
+      "name": "Azmatullah Omarzai",
+      "team": "Punjab Kings",
+      "role_text": "All‑rounder",
+      "nationality": "Afghan",
+      "price": "INR 2.40 cr"
+    },
+    {
+      "name": "Harpreet Brar",
+      "team": "Punjab Kings",
+      "role_text": "All‑rounder",
+      "nationality": "Indian",
+      "price": "INR 1.50 cr"
+    },
+    {
+      "name": "Suryanash Hedge",
+      "team": "Punjab Kings",
+      "role_text": "All‑rounder",
+      "nationality": "Indian",
+      "price": "INR 0.30 cr"
+    },
+    {
+      "name": "Mitchell Owen",
+      "team": "Punjab Kings",
+      "role_text": "All‑rounder",
+      "nationality": "Australian",
+      "price": "INR 3.00 cr"
+    },
+    {
+      "name": "Cooper Connolly",
+      "team": "Punjab Kings",
+      "role_text": "All-rounder",
+      "nationality": "Australia",
+      "price": "INR 3 Cr"
+    },
+    {
+      "name": "Pravin Dube",
+      "team": "Punjab Kings",
+      "role_text": "All-rounder",
+      "nationality": "India",
+      "price": "INR 30 Lakh"
+    },
+    {
+      "name": "Jamie Overton",
+      "team": "Punjab Kings",
+      "role_text": "All‑rounder",
+      "nationality": "English",
+      "price": "INR 1.50 Cr"
+    },
+    {
+      "name": "Ramakrishna Ghosh",
+      "team": "Punjab Kings",
+      "role_text": "All‑rounder",
+      "nationality": "Indian",
+      "price": "INR 0.30 Cr"
+    },
+    {
+      "name": "Shivam Dube",
+      "team": "Punjab Kings",
+      "role_text": "All‑rounder",
+      "nationality": "Indian",
+      "price": "INR 12.00 Cr"
+    },
+    {
+      "name": "Hardik Pandya (C)",
+      "team": "Punjab Kings",
+      "role_text": "All‑rounder",
+      "nationality": "Indian",
+      "price": "INR 16.35 cr"
+    },
+    {
+      "name": "Deepak Chahar",
+      "team": "Punjab Kings",
+      "role_text": "All‑rounder / Bowler",
+      "nationality": "Indian",
+      "price": "INR 9.25 cr"
+    },
+    {
+      "name": "Will Jacks",
+      "team": "Punjab Kings",
+      "role_text": "All‑rounder",
+      "nationality": "English",
+      "price": "INR 5.25 cr"
+    },
+    {
+      "name": "Mitchell Santner",
+      "team": "Punjab Kings",
+      "role_text": "All‑rounder",
+      "nationality": "New Zealander",
+      "price": "INR 2 cr"
+    },
+    {
+      "name": "Naman Dhir",
+      "team": "Punjab Kings",
+      "role_text": "All‑rounder",
+      "nationality": "Indian",
+      "price": "INR 5.25 cr"
+    },
+    {
+      "name": "Raj Angad Bawa",
+      "team": "Punjab Kings",
+      "role_text": "All‑rounder",
+      "nationality": "Indian",
+      "price": "INR 0.30 cr"
+    },
+    {
+      "name": "Corbin Bosch",
+      "team": "Punjab Kings",
+      "role_text": "All‑rounder",
+      "nationality": "South African",
+      "price": "INR 0.30 cr"
+    },
+    {
+      "name": "Sherfane Rutherford (trade from GT)",
+      "team": "Punjab Kings",
+      "role_text": "All‑rounder",
+      "nationality": "West Indian",
+      "price": "INR 2.60 cr"
+    },
+    {
+      "name": "Shardul Thakur (trade from LSG)",
+      "team": "Punjab Kings",
+      "role_text": "All‑rounder / Bowler",
+      "nationality": "Indian",
+      "price": "INR 2 cr"
+    },
+    {
+      "name": "Sunil Narine",
+      "team": "Punjab Kings",
+      "role_text": "All‑rounder",
+      "nationality": "West Indies",
+      "price": "INR 12 Cr"
+    },
+    {
+      "name": "Anukul Roy",
+      "team": "Punjab Kings",
+      "role_text": "All‑rounder",
+      "nationality": "Indian",
+      "price": "INR 0.40 Cr"
+    },
+    {
+      "name": "Tim David",
+      "team": "Punjab Kings",
+      "role_text": "Batter / All‑rounder",
+      "nationality": "Singaporean / Australian",
+      "price": "INR 3.00 cr"
+    },
+    {
+      "name": "Krunal Pandya",
+      "team": "Punjab Kings",
+      "role_text": "All‑rounder",
+      "nationality": "Indian",
+      "price": "INR 5.75 cr"
+    },
+    {
+      "name": "Jacob Bethell",
+      "team": "Punjab Kings",
+      "role_text": "All‑rounder",
+      "nationality": "English",
+      "price": "INR 2.60 cr"
+    },
+    {
+      "name": "Romario Shepherd",
+      "team": "Punjab Kings",
+      "role_text": "All‑rounder",
+      "nationality": "West Indies",
+      "price": "INR 1.50 cr"
+    },
+    {
+      "name": "Abinandhan Singh",
+      "team": "Punjab Kings",
+      "role_text": "All‑rounder",
+      "nationality": "Indian",
+      "price": "INR 0.30 cr"
+    },
+    {
+      "name": "Abhishek Porel",
+      "team": "Punjab Kings",
+      "role_text": "All‑rounder",
+      "nationality": "Indian",
+      "price": "INR 4.00 cr"
+    },
+    {
+      "name": "Axar Patel",
+      "team": "Punjab Kings",
+      "role_text": "All‑rounder",
+      "nationality": "Indian",
+      "price": "INR 16.25 cr"
+    },
+    {
+      "name": "Ashutosh Sharma",
+      "team": "Punjab Kings",
+      "role_text": "All‑rounder",
+      "nationality": "Indian",
+      "price": "INR 3.80 cr"
+    },
+    {
+      "name": "Madhav Tiwari",
+      "team": "Punjab Kings",
+      "role_text": "All‑rounder",
+      "nationality": "Indian",
+      "price": "INR 0.40 cr"
+    },
+    {
+      "name": "Ajay Mandal",
+      "team": "Punjab Kings",
+      "role_text": "All‑rounder",
+      "nationality": "Indian",
+      "price": "INR 0.30 cr"
+    },
+    {
+      "name": "Priyansh Arya",
+      "team": "Punjab Kings",
+      "role_text": "All‑rounder",
+      "nationality": "Indian",
+      "price": "INR 3.80 cr"
+    },
+    {
+      "name": "Pila Avinash",
+      "team": "Punjab Kings",
+      "role_text": "All‑rounder",
+      "nationality": "Indian",
+      "price": "INR 0.30 cr"
+    },
+    {
+      "name": "Musheer Khan",
+      "team": "Punjab Kings",
+      "role_text": "All‑rounder",
+      "nationality": "Indian",
+      "price": "INR 0.30 cr"
+    },
+    {
+      "name": "Marcus Stoinis",
+      "team": "Punjab Kings",
+      "role_text": "All‑rounder",
+      "nationality": "Australian",
+      "price": "INR 11.00 cr"
+    },
+    {
+      "name": "Marco Jansen",
+      "team": "Punjab Kings",
+      "role_text": "All‑rounder",
+      "nationality": "South African",
+      "price": "INR 2.00 cr"
+    },
+    {
+      "name": "Azmatullah Omarzai",
+      "team": "Punjab Kings",
+      "role_text": "All‑rounder",
+      "nationality": "Afghan",
+      "price": "INR 2.40 cr"
+    },
+    {
+      "name": "Harpreet Brar",
+      "team": "Punjab Kings",
+      "role_text": "All‑rounder",
+      "nationality": "Indian",
+      "price": "INR 1.50 cr"
+    },
+    {
+      "name": "Suryanash Hedge",
+      "team": "Punjab Kings",
+      "role_text": "All‑rounder",
+      "nationality": "Indian",
+      "price": "INR 0.30 cr"
+    },
+    {
+      "name": "Mitchell Owen",
+      "team": "Punjab Kings",
+      "role_text": "All‑rounder",
+      "nationality": "Australian",
+      "price": "INR 3.00 cr"
+    },
+    {
+      "name": "Smaran Ravichandran",
+      "team": "Punjab Kings",
+      "role_text": "All‑rounder",
+      "nationality": "Indian",
+      "price": "INR 0.30 cr"
+    },
+    {
+      "name": "Abhishek Sharma",
+      "team": "Punjab Kings",
+      "role_text": "All‑rounder / Batter",
+      "nationality": "Indian",
+      "price": "INR 14.00 cr"
+    },
+    {
+      "name": "Nitish Kumar Reddy",
+      "team": "Punjab Kings",
+      "role_text": "All‑rounder",
+      "nationality": "Indian",
+      "price": "INR 6.00 cr"
+    },
+    {
+      "name": "Kamindu Mendis",
+      "team": "Punjab Kings",
+      "role_text": "All‑rounder",
+      "nationality": "Sri Lankan",
+      "price": "INR 0.75 cr"
+    },
+    {
+      "name": "Brydon Carse",
+      "team": "Punjab Kings",
+      "role_text": "All‑rounder",
+      "nationality": "English",
+      "price": "INR 1.00 cr"
+    },
+    {
+      "name": "Pat Cummins",
+      "team": "Punjab Kings",
+      "role_text": "Bowling all-rounder",
+      "nationality": "Australian",
+      "price": "INR 18.00 cr"
+    },
+    {
+      "name": "Harshal Patel",
+      "team": "Punjab Kings",
+      "role_text": "All‑rounder",
+      "nationality": "Indian",
+      "price": "INR 8.00 cr"
+    },
+    {
+      "name": "Rahul Tewatia",
+      "team": "Punjab Kings",
+      "role_text": "All‑rounder",
+      "nationality": "Indian",
+      "price": "INR 4.00 cr"
+    },
+    {
+      "name": "Washington Sundar",
+      "team": "Punjab Kings",
+      "role_text": "All‑rounder",
+      "nationality": "Indian",
+      "price": "INR 3.20 cr"
+    },
+    {
+      "name": "Jayant Yadav",
+      "team": "Punjab Kings",
+      "role_text": "All‑rounder",
+      "nationality": "Indian",
+      "price": "INR 0.75 cr"
+    },
+    {
+      "name": "Manav Suthar",
+      "team": "Punjab Kings",
+      "role_text": "All‑rounder",
+      "nationality": "Indian",
+      "price": "INR 0.30 cr"
+    },
+    {
+      "name": "Abdul Samad",
+      "team": "Punjab Kings",
+      "role_text": "Batter / All‑rounder",
+      "nationality": "Indian",
+      "price": "INR 4.20 cr"
+    },
+    {
+      "name": "Mitchell Marsh",
+      "team": "Punjab Kings",
+      "role_text": "All‑rounder",
+      "nationality": "Australian",
+      "price": "INR 3.40 cr"
+    },
+    {
+      "name": "Arshin Kulkarni",
+      "team": "Punjab Kings",
+      "role_text": "All‑rounder",
+      "nationality": "Indian",
+      "price": "INR 0.30 cr"
+    },
+    {
+      "name": "Prince Yadav",
+      "team": "Punjab Kings",
+      "role_text": "All‑rounder",
+      "nationality": "Indian",
+      "price": "INR 0.30 cr"
+    },
+    {
+      "name": "Shubham Dube",
+      "team": "Punjab Kings",
+      "role_text": "All‑rounder",
+      "nationality": "Indian",
+      "price": "INR 0.30 cr"
+    },
+    {
+      "name": "Lhuan-dre Pretorius",
+      "team": "Punjab Kings",
+      "role_text": "All‑rounder",
+      "nationality": "South African",
+      "price": "INR 0.30 cr"
+    },
+    {
+      "name": "Riyan Parag",
+      "team": "Punjab Kings",
+      "role_text": "All‑rounder",
+      "nationality": "Indian",
+      "price": "INR 14.00 cr"
+    },
+    {
+      "name": "Ravindra Jadeja",
+      "team": "Punjab Kings",
+      "role_text": "All‑rounder",
+      "nationality": "Indian",
+      "price": "INR 14.00 cr"
+    },
+    {
+      "name": "Sam Curran",
+      "team": "Punjab Kings",
+      "role_text": "All‑rounder",
+      "nationality": "English",
+      "price": "INR 2.60 cr"
+    },
+    {
+      "name": "Thushar Deshpande",
+      "team": "Punjab Kings",
+      "role_text": "All‑rounder",
+      "nationality": "Indian",
+      "price": "INR 6.50 cr"
+    }
+  ]
+}

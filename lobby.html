@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>IPL Auction 2026 - Lobby</title>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body data-page="lobby">
+
+<!-- LOBBY SCREEN -->
+<div id="lobbyScreen" class="screen active">
+  <div class="lobby-screen">
+    <div class="lobby-container">
+      <div class="lobby-header">
+        <h2>Auction Lobby</h2>
+        <div class="room-code-display">
+          <div class="room-code-label">Room Code</div>
+          <div class="room-code" id="roomCodeDisplay">------</div>
+        </div>
+        <button class="share-btn" id="shareBtn">
+          📋 Copy Room Code
+        </button>
+      </div>
+
+      <div class="players-section">
+        <div class="section-title">
+          <span id="playerCount">0</span> / <span id="maxPlayerCount">10</span> Players
+        </div>
+        <div id="playersList"></div>
+        <div id="waitingMessage" class="waiting-players" style="display: none;">
+          <div class="loader"></div>
+          <span>Waiting for more players to join...</span>
+        </div>
+      </div>
+
+      <button class="btn" id="startAuctionBtn" disabled style="display: none;">Start Auction</button>
+      <button class="btn btn-secondary" id="leaveRoomBtn">Leave Room</button>
+    </div>
+  </div>
+</div>
+
+<script src="auction.js"></script>
+</body>
+</html>

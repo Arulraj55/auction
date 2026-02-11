@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>IPL Auction 2026 - Auction</title>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body data-page="auction">
+
+<!-- AUCTION SCREEN -->
+<div id="auctionScreen" class="screen active">
+  <div class="container">
+    <div class="auction-header">
+      <div class="header-left">
+        <div class="user-info">
+          <div class="user-team-badge" id="userBadge"></div>
+          <div class="user-details">
+            <h3 id="userNameDisplay">Player</h3>
+            <p id="userTeamDisplay">Team</p>
+          </div>
+        </div>
+      </div>
+      <div class="header-stats">
+        <div class="stat">
+          <div class="stat-label">Purse Remaining</div>
+          <div class="stat-value" id="userPurse">₹120 Cr</div>
+        </div>
+        <div class="stat">
+          <div class="stat-label">Players Bought</div>
+          <div class="stat-value" id="userCount">0</div>
+        </div>
+      </div>
+      <div class="auction-controls">
+        <div class="timer-controls" id="timerControls" style="display: none;">
+          <label>Timer:</label>
+          <select id="timerSelect">
+            <option value="5">5s</option>
+            <option value="10">10s</option>
+            <option value="15" selected>15s</option>
+            <option value="20">20s</option>
+            <option value="25">25s</option>
+            <option value="30">30s</option>
+          </select>
+        </div>
+        <button class="control-btn pause" id="pauseBtn">⏸ Pause</button>
+        <button class="control-btn pause" id="resumeBtn" style="display: none;">▶ Resume</button>
+        <button class="control-btn end" id="endAuctionBtn" style="display: none;">🛑 End Auction</button>
+      </div>
+    </div>
+
+    <div class="auction-grid">
+      <div class="upcoming-panel" id="upcomingPanel">
+        <div class="expand-toggle" onclick="toggleUpcoming()">
+          <h3>Next Players</h3>
+          <span class="expand-icon" id="expandIcon">▼</span>
+        </div>
+        <div class="upcoming-list" id="upcomingList"></div>
+      </div>
+
+      <div class="player-panel" id="playerPanel"></div>
+
+      <div class="teams-panel">
+        <h3>Teams & Squads</h3>
+        <div id="teamsList"></div>
+      </div>
+
+      <div style="display: flex; flex-direction: column; gap: 20px;">
+        <div class="chat-panel">
+          <div class="chat-header">💬 Public Chat</div>
+          <div class="chat-messages" id="chatMessages"></div>
+          <div class="chat-input-container">
+            <input type="text" class="chat-input" id="chatInput" placeholder="Type a message..." maxlength="200">
+            <button class="chat-send-btn" id="chatSendBtn">Send</button>
+          </div>
+        </div>
+
+        <div class="sold-panel">
+          <h3>🏆 Sold Players (<span id="soldCount">0</span>)</h3>
+          <div id="soldPlayersList"></div>
+        </div>
+
+        <div class="unsold-panel">
+          <h3>❌ Unsold Players (<span id="unsoldCount">0</span>)</h3>
+          <div id="unsoldPlayersList"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="sold-overlay" id="soldOverlay">
+  <div class="sold-content" id="soldContent"></div>
+</div>
+
+<div class="paused-overlay" id="pausedOverlay">
+  <div class="paused-text">⏸ AUCTION PAUSED</div>
+</div>
+
+<script src="auction.js"></script>
+</body>
+</html>
