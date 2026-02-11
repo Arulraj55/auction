@@ -277,6 +277,23 @@ async def handle_websocket(request):
                             'room_data': room.to_dict()
                         })
                 
+                elif action == 'list_rooms':
+                    # Return all rooms and their status
+                    room_list = []
+                    for code, room in rooms.items():
+                        room_list.append({
+                            'room_code': code,
+                            'status': room.auction_state['status'],
+                            'players': [p['name'] for p in room.players.values()],
+                            'auction_mode': room.auction_mode,
+                            'timer_duration': room.timer_duration,
+                            'host': room.players[room.host_id]['name'] if room.host_id in room.players else None
+                        })
+                    await ws.send_json({
+                        'type': 'room_list',
+                        'rooms': room_list
+                    })
+                
                 elif action == 'send_message':
                     if room_code and room_code in rooms:
                         room = rooms[room_code]

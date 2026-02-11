@@ -103,8 +103,13 @@ function initPage() {
 
 function initHomePage() {
   const grid = document.getElementById('teamsGrid');
-  if (!grid) return;
+  if (!grid) {
+    console.error('teamsGrid not found!');
+    return;
+  }
 
+  console.log('Initializing teams, found', TEAMS.length, 'teams');
+  
   TEAMS.forEach((t, i) => {
     const btn = document.createElement('div');
     btn.className = 'team-btn';
@@ -116,11 +121,97 @@ function initHomePage() {
     btn.onclick = () => selectTeam(i, btn);
     grid.appendChild(btn);
   });
+  
+  console.log('Teams grid populated with', grid.children.length, 'buttons');
 
   document.getElementById('playerName')?.addEventListener('input', checkReady);
   document.getElementById('roomCodeInput')?.addEventListener('input', checkReady);
   document.getElementById('createRoomBtn')?.addEventListener('click', createRoom);
   document.getElementById('joinRoomBtn')?.addEventListener('click', joinRoom);
+
+   // Browse Rooms
+   const browseBtn = document.getElementById('browseRoomsBtn');
+   const modal = document.getElementById('browseRoomsModal');
+   const closeBtn = document.getElementById('closeBrowseRooms');
+   const roomsList = document.getElementById('roomsList');
+   if (browseBtn && modal && closeBtn && roomsList) {
+     browseBtn.onclick = () => {
+       modal.style.display = 'block';
+       fetchRoomsList();
+     };
+     closeBtn.onclick = () => { modal.style.display = 'none'; };
+     window.onclick = (e) => { if (e.target === modal) modal.style.display = 'none'; };
+   }
+}
+
+function fetchRoomsList() {
+  // Open a temp websocket to fetch rooms
+  const wsBrowse = new WebSocket(`ws://${window.location.hostname}:${window.location.port}/ws`);
+  wsBrowse.onopen = () => {
+    wsBrowse.send(JSON.stringify({ action: 'list_rooms' }));
+  };
+  wsBrowse.onmessage = (event) => {
+    const data = JSON.parse(event.data);
+    if (data.type === 'room_list') {
+      renderRoomsList(data.rooms);
+      wsBrowse.close();
+    }
+  };
+  wsBrowse.onerror = () => {
+    document.getElementById('roomsList').innerHTML = '<p style="color:red">Failed to fetch rooms.</p>';
+  };
+}
+
+function renderRoomsList(rooms) {
+  if (!rooms.length) {
+    document.getElementById('roomsList').innerHTML = '<p style="color:var(--text-dim);text-align:center;padding:20px;">No rooms found. Create one!</p>';
+    return;
+  }
+  document.getElementById('roomsList').innerHTML = rooms.map(r => {
+    const statusColor = r.status === 'waiting' ? '#10b981' : r.status === 'active' ? '#fbbf24' : '#ef4444';
+    const statusLabel = r.status.charAt(0).toUpperCase() + r.status.slice(1);
+    const canJoin = r.status === 'waiting' && r.players.length < 10;
+    return `
+      <div class="room-list-item">
+        <div class="room-item-header">
+          <span class="room-code-tag">${r.room_code}</span>
+          <span class="room-status-badge" style="background:${statusColor}20;color:${statusColor};border:1px solid ${statusColor}40">${statusLabel}</span>
+        </div>
+        <div class="room-item-info">
+          <div><span class="room-info-label">Host:</span> ${r.host || 'N/A'}</div>
+          <div><span class="room-info-label">Players:</span> ${r.players.join(', ')} (${r.players.length}/10)</div>
+          <div><span class="room-info-label">Mode:</span> ${r.auction_mode === 'mega' ? 'Mega' : 'Legend'} | Timer: ${r.timer_duration}s</div>
+        </div>
+        ${canJoin ? `<button class="room-join-btn" onclick="joinBrowsedRoom('${r.room_code}')">Join Room</button>` : ''}
+      </div>
+    `;
+  }).join('');
+}
+
+function joinBrowsedRoom(code) {
+  // Close modal
+  const modal = document.getElementById('browseRoomsModal');
+  if (modal) modal.style.display = 'none';
+  // Fill the code and trigger join
+  const codeInput = document.getElementById('roomCodeInput');
+  if (codeInput) {
+    codeInput.value = code;
+    checkReady();
+    joinRoom();
+  }
+}
+
+function switchSoldTab(tab) {
+  document.querySelectorAll('.su-tab').forEach(t => t.classList.remove('active'));
+  if (tab === 'sold') {
+    document.getElementById('soldTabContent').style.display = 'block';
+    document.getElementById('unsoldTabContent').style.display = 'none';
+    document.querySelectorAll('.su-tab')[0].classList.add('active');
+  } else {
+    document.getElementById('soldTabContent').style.display = 'none';
+    document.getElementById('unsoldTabContent').style.display = 'block';
+    document.querySelectorAll('.su-tab')[1].classList.add('active');
+  }
 }
 
 function initLobbyPage() {
@@ -164,10 +255,16 @@ function selectTeam(idx, el) {
 
 function checkReady() {
   const name = document.getElementById('playerName').value.trim();
-  document.getElementById('createRoomBtn').disabled = !(name && selectedTeam !== null);
+  const hasNameAndTeam = name && selectedTeam !== null;
+  
+  document.getElementById('createRoomBtn').disabled = !hasNameAndTeam;
   
   const roomCodeVal = document.getElementById('roomCodeInput').value.trim();
-  document.getElementById('joinRoomBtn').disabled = !(name && selectedTeam !== null && roomCodeVal.length === 6);
+  document.getElementById('joinRoomBtn').disabled = !(hasNameAndTeam && roomCodeVal.length === 6);
+  
+  // Enable Browse Rooms only after name and team are selected
+  const browseBtn = document.getElementById('browseRoomsBtn');
+  if (browseBtn) browseBtn.disabled = !hasNameAndTeam;
 }
 
 async function loadPlayerData() {
@@ -674,150 +771,140 @@ function renderPlayer(p) {
     nationality = p.isForeign ? 'Overseas' : 'Indian';
   }
 
-  let infoHTML = '';
-  
+  // ─── Build details HTML (goes in sidebar detailsPanel) ───
+  let detailsHTML = '';
+
   if (auctionMode === 'mega') {
-    // Mega Auction: Show only basic info, no stats
-    infoHTML = `
-      <div class="stats-container">
-        <div class="stats-title">Player Details</div>
-        <div class="player-mega-info">
-          <div class="mega-info-item">
-            <span class="mega-label">Previous Team:</span>
-            <span class="mega-value">${teams || 'N/A'}</span>
-          </div>
-          <div class="mega-info-item">
-            <span class="mega-label">Role:</span>
-            <span class="mega-value">${(p.role_text || p.role).replace('_', ' ')}</span>
-          </div>
-          <div class="mega-info-item">
-            <span class="mega-label">Nationality:</span>
-            <span class="mega-value ${p.isForeign ? 'foreign-player' : 'indian-player'}">${nationality || 'N/A'}</span>
-          </div>
+    detailsHTML = `
+      <div class="detail-section-header">
+        <span class="detail-icon">📋</span> Player Details
+      </div>
+      <div class="detail-items">
+        <div class="detail-row">
+          <span class="detail-label">Previous Team</span>
+          <span class="detail-value">${teams || 'N/A'}</span>
+        </div>
+        <div class="detail-row">
+          <span class="detail-label">Role</span>
+          <span class="detail-value">${(p.role_text || p.role).replace('_', ' ')}</span>
+        </div>
+        <div class="detail-row">
+          <span class="detail-label">Nationality</span>
+          <span class="detail-value ${p.isForeign ? 'foreign-player' : 'indian-player'}">${nationality || 'N/A'}</span>
+        </div>
+        <div class="detail-row">
+          <span class="detail-label">Base Price</span>
+          <span class="detail-value accent-text">${formatCr(p.basePrice)}</span>
         </div>
       </div>
     `;
   } else {
-    // Legend Auction: Show only stats (no team/nationality)
+    // Legend Auction: Show stats in sidebar
+    let statsHTML = '';
     if (p.role === 'batsman' && p.stats) {
-      infoHTML = `
-        <div class="stats-container">
-          <div class="stats-title">Career Statistics</div>
-          <div class="stats-grid">
-            ${statBox(p.stats.matches, 'Matches')}
-            ${statBox(p.stats.innings, 'Innings')}
-            ${statBox(parseInt(p.stats.runs_or_wickets||0).toLocaleString(), 'Runs')}
-            ${statBox(p.stats.avg, 'Average')}
-            ${statBox(p.stats.sr_or_economy, 'Strike Rate')}
-            ${statBox(parseInt(p.stats.hundreds_or_5w||0), '100s')}
-            ${statBox(parseInt(p.stats.fifties_or_4w||0), '50s')}
-            ${statBox(parseInt(p.stats.fours_or_runs_conceded||0), '4s')}
-            ${statBox(p.stats.sixes_or_wickets, '6s')}
-          </div>
+      statsHTML = `
+        <div class="detail-section-header">
+          <span class="detail-icon">📊</span> Career Statistics
+        </div>
+        <div class="stats-grid-sidebar">
+          ${statBox(p.stats.matches, 'Matches')}
+          ${statBox(p.stats.innings, 'Innings')}
+          ${statBox(parseInt(p.stats.runs_or_wickets||0).toLocaleString(), 'Runs')}
+          ${statBox(p.stats.avg, 'Average')}
+          ${statBox(p.stats.sr_or_economy, 'Strike Rate')}
+          ${statBox(parseInt(p.stats.hundreds_or_5w||0), '100s')}
+          ${statBox(parseInt(p.stats.fifties_or_4w||0), '50s')}
+          ${statBox(parseInt(p.stats.fours_or_runs_conceded||0), '4s')}
+          ${statBox(p.stats.sixes_or_wickets, '6s')}
         </div>
       `;
     } else if (p.role === 'bowler' && p.stats) {
-      infoHTML = `
-        <div class="stats-container">
-          <div class="stats-title">Career Statistics</div>
-          <div class="stats-grid">
-            ${statBox(p.stats.matches, 'Matches')}
-            ${statBox(p.stats.innings, 'Innings')}
-            ${statBox(p.stats.balls_or_balls_faced, 'Wickets')}
-            ${statBox(p.stats.hundreds_or_5w, 'Average')}
-            ${statBox(p.stats.fifties_or_4w, 'Economy')}
-            ${statBox(p.stats.ducks_or_maidens, 'Strike Rate')}
-          </div>
+      statsHTML = `
+        <div class="detail-section-header">
+          <span class="detail-icon">📊</span> Career Statistics
+        </div>
+        <div class="stats-grid-sidebar">
+          ${statBox(p.stats.matches, 'Matches')}
+          ${statBox(p.stats.innings, 'Innings')}
+          ${statBox(p.stats.balls_or_balls_faced, 'Wickets')}
+          ${statBox(p.stats.hundreds_or_5w, 'Average')}
+          ${statBox(p.stats.fifties_or_4w, 'Economy')}
+          ${statBox(p.stats.ducks_or_maidens, 'Strike Rate')}
         </div>
       `;
     } else if (p.role === 'all_rounder') {
-      infoHTML = `
-        <div class="stats-container">
-          <div class="stats-title">Batting Statistics</div>
-          <div class="stats-grid">
-            ${statBox(p.batting_stats?.matches||'-', 'Matches')}
-            ${statBox(parseInt(p.batting_stats?.runs_or_wickets||0).toLocaleString(), 'Runs')}
-            ${statBox(p.batting_stats?.avg||'-', 'Average')}
-            ${statBox(p.batting_stats?.sr_or_economy||'-', 'SR')}
-          </div>
+      statsHTML = `
+        <div class="detail-section-header">
+          <span class="detail-icon">🏏</span> Batting Statistics
         </div>
-        <div class="stats-container">
-          <div class="stats-title">Bowling Statistics</div>
-          <div class="stats-grid">
-            ${statBox(p.bowling_stats?.matches||'-', 'Matches')}
-            ${statBox(p.bowling_stats?.balls_or_balls_faced||'-', 'Wickets')}
-            ${statBox(p.bowling_stats?.hundreds_or_5w||'-', 'Avg')}
-            ${statBox(p.bowling_stats?.fifties_or_4w||'-', 'Econ')}
-          </div>
+        <div class="stats-grid-sidebar">
+          ${statBox(p.batting_stats?.matches||'-', 'Matches')}
+          ${statBox(parseInt(p.batting_stats?.runs_or_wickets||0).toLocaleString(), 'Runs')}
+          ${statBox(p.batting_stats?.avg||'-', 'Average')}
+          ${statBox(p.batting_stats?.sr_or_economy||'-', 'SR')}
+        </div>
+        <div class="detail-section-header" style="margin-top:16px;">
+          <span class="detail-icon">🎳</span> Bowling Statistics
+        </div>
+        <div class="stats-grid-sidebar">
+          ${statBox(p.bowling_stats?.matches||'-', 'Matches')}
+          ${statBox(p.bowling_stats?.balls_or_balls_faced||'-', 'Wickets')}
+          ${statBox(p.bowling_stats?.hundreds_or_5w||'-', 'Avg')}
+          ${statBox(p.bowling_stats?.fifties_or_4w||'-', 'Econ')}
         </div>
       `;
     } else {
-      // Fallback if no stats found (for Legend mode)
-      if (auctionMode === 'legend') {
-        infoHTML = `
-          <div class="stats-container">
-            <div class="stats-title">Player Information</div>
-            <p style="text-align: center; margin-top: 20px; color: var(--text-dim); font-size: 1.1rem;">Career statistics not available for this player</p>
-          </div>
-        `;
-      } else {
-        // Mega mode fallback - show basic info
-        infoHTML = `
-          <div class="stats-container">
-            <div class="stats-title">Player Information</div>
-            <div class="player-mega-info">
-              <div class="mega-info-item">
-                <span class="mega-label">Previous Teams:</span>
-                <span class="mega-value">${teams || 'N/A'}</span>
-              </div>
-              <div class="mega-info-item">
-                <span class="mega-label">Role:</span>
-                <span class="mega-value">${(p.role_text || p.role).replace('_', ' ')}</span>
-              </div>
-              <div class="mega-info-item">
-                <span class="mega-label">Nationality:</span>
-                <span class="mega-value ${p.isForeign ? 'foreign-player' : 'indian-player'}">${nationality || 'Indian'}</span>
-              </div>
-            </div>
-          </div>
-        `;
-      }
+      statsHTML = `
+        <div class="detail-section-header">
+          <span class="detail-icon">📋</span> Player Information
+        </div>
+        <p style="text-align:center;margin-top:16px;color:var(--text-dim);font-size:0.95rem;">Stats not available</p>
+      `;
     }
+    detailsHTML = statsHTML;
   }
 
+  // ─── Render details panel (below bidding in center) ───
+  const detailsPanel = document.getElementById('detailsPanel');
+  if (detailsPanel) detailsPanel.innerHTML = detailsHTML;
+
+  // ─── Center panel: player name + timer + base price + current bid + bid button ───
   document.getElementById('playerPanel').innerHTML = `
-    <div class="current-player-header">
-      <div class="player-info-main">
-        <span class="player-role-badge ${p.role}">${p.role.replace('_', ' ')}</span>
-        <h2 class="player-name-large">${displayName}</h2>
-        <p class="player-teams-text">${teams}</p>
-        ${p.isForeign ? '<span class="foreign-badge">🌍 FOREIGN</span>' : ''}
-        <div class="base-price-display">
-          <span>BASE PRICE</span>
-          <strong>${formatCr(p.basePrice)}</strong>
+    <div class="center-player-card">
+      <div class="player-top-row">
+        <div class="player-identity">
+          <span class="player-role-badge ${p.role}">${p.role.replace('_', ' ')}</span>
+          <h2 class="player-name-large">${displayName}</h2>
+          <p class="player-teams-text">${teams}</p>
+          ${p.isForeign ? '<span class="foreign-badge">🌍 FOREIGN</span>' : ''}
+        </div>
+        <div class="timer-circle">
+          <svg class="timer-svg" width="100" height="100">
+            <circle class="timer-bg" cx="50" cy="50" r="42"></circle>
+            <circle class="timer-progress" id="timerProgress" cx="50" cy="50" r="42"
+              stroke-dasharray="264" stroke-dashoffset="0"></circle>
+          </svg>
+          <div class="timer-text" id="timerText">${roomData.auction_state.time_left}</div>
         </div>
       </div>
-      <div class="timer-circle">
-        <svg class="timer-svg" width="100" height="100">
-          <circle class="timer-bg" cx="50" cy="50" r="42"></circle>
-          <circle class="timer-progress" id="timerProgress" cx="50" cy="50" r="42" 
-            stroke-dasharray="264" stroke-dashoffset="0"></circle>
-        </svg>
-        <div class="timer-text" id="timerText">${roomData.auction_state.time_left}</div>
-      </div>
-    </div>
-    ${infoHTML}
-    <div class="bidding-section">
-      <div class="current-bid">
-        <div class="current-bid-label">CURRENT BID</div>
-        <div class="current-bid-amount" id="bidAmount">${formatCr(roomData.auction_state.current_bid)}</div>
-        <div class="current-bidder" id="bidder">Base Price</div>
-      </div>
-      <div class="bid-controls">
+
+      <div class="center-bid-area">
+        <div class="base-price-pill">
+          <span class="bp-label">BASE PRICE</span>
+          <span class="bp-value">${formatCr(p.basePrice)}</span>
+        </div>
+
+        <div class="current-bid-card">
+          <div class="current-bid-label">CURRENT BID</div>
+          <div class="current-bid-amount" id="bidAmount">${formatCr(roomData.auction_state.current_bid)}</div>
+          <div class="current-bidder" id="bidder">Base Price</div>
+        </div>
+
         <button class="bid-btn bid-btn-primary" id="bidBtn">
           BID ${formatCr(getNextBid())}
         </button>
       </div>
+
       <div class="bid-history" id="bidHistory"></div>
     </div>
   `;
@@ -972,7 +1059,8 @@ function updateTimerDisplay() {
   if (progress) {
     const duration = normalizeTimerDuration(roomData.timer_duration, 15);
     const percent = Math.max(0, Math.min(1, timeLeft / duration));
-    const offset = 264 * (1 - percent);
+    const circumference = 264; // 2 * π * 42
+    const offset = circumference * (1 - percent);
     progress.style.strokeDashoffset = offset;
   }
 }

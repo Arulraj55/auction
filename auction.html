@@ -11,7 +11,8 @@
 
 <!-- AUCTION SCREEN -->
 <div id="auctionScreen" class="screen active">
-  <div class="container">
+  <div class="container-wide">
+    <!-- Top Header Bar -->
     <div class="auction-header">
       <div class="header-left">
         <div class="user-info">
@@ -24,11 +25,11 @@
       </div>
       <div class="header-stats">
         <div class="stat">
-          <div class="stat-label">Purse Remaining</div>
+          <div class="stat-label">Purse</div>
           <div class="stat-value" id="userPurse">₹120 Cr</div>
         </div>
         <div class="stat">
-          <div class="stat-label">Players Bought</div>
+          <div class="stat-label">Bought</div>
           <div class="stat-value" id="userCount">0</div>
         </div>
       </div>
@@ -46,46 +47,59 @@
         </div>
         <button class="control-btn pause" id="pauseBtn">⏸ Pause</button>
         <button class="control-btn pause" id="resumeBtn" style="display: none;">▶ Resume</button>
-        <button class="control-btn end" id="endAuctionBtn" style="display: none;">🛑 End Auction</button>
+        <button class="control-btn end" id="endAuctionBtn" style="display: none;">🛑 End</button>
       </div>
     </div>
 
-    <div class="auction-grid">
-      <div class="upcoming-panel" id="upcomingPanel">
-        <div class="expand-toggle" onclick="toggleUpcoming()">
-          <h3>Next Players</h3>
-          <span class="expand-icon" id="expandIcon">▼</span>
+    <!-- Main 3-Column Grid -->
+    <div class="auction-layout">
+      <!-- Col 1: Upcoming Players -->
+      <div class="col-upcoming">
+        <div class="panel upcoming-panel" id="upcomingPanel">
+          <div class="panel-header" onclick="toggleUpcoming()">
+            <h3>📋 Next Up</h3>
+            <span class="expand-icon" id="expandIcon">▼</span>
+          </div>
+          <div class="upcoming-list" id="upcomingList"></div>
         </div>
-        <div class="upcoming-list" id="upcomingList"></div>
       </div>
 
-      <div class="player-panel" id="playerPanel"></div>
-
-      <div class="teams-panel">
-        <h3>Teams & Squads</h3>
-        <div id="teamsList"></div>
+      <!-- Col 2: Center — Bidding + Player Details -->
+      <div class="col-center">
+        <div class="panel player-panel" id="playerPanel"></div>
+        <div class="panel details-panel" id="detailsPanel"></div>
       </div>
 
-      <div style="display: flex; flex-direction: column; gap: 20px;">
-        <div class="chat-panel">
-          <div class="chat-header">💬 Public Chat</div>
+      <!-- Col 3: Right — Chat + Sold/Unsold -->
+      <div class="col-right">
+        <div class="panel chat-panel">
+          <div class="panel-header chat-header-bar">💬 Live Chat</div>
           <div class="chat-messages" id="chatMessages"></div>
           <div class="chat-input-container">
             <input type="text" class="chat-input" id="chatInput" placeholder="Type a message..." maxlength="200">
-            <button class="chat-send-btn" id="chatSendBtn">Send</button>
+            <button class="chat-send-btn" id="chatSendBtn">↑</button>
           </div>
         </div>
 
-        <div class="sold-panel">
-          <h3>🏆 Sold Players (<span id="soldCount">0</span>)</h3>
-          <div id="soldPlayersList"></div>
-        </div>
-
-        <div class="unsold-panel">
-          <h3>❌ Unsold Players (<span id="unsoldCount">0</span>)</h3>
-          <div id="unsoldPlayersList"></div>
+        <div class="panel sold-unsold-panel">
+          <div class="sold-unsold-tabs">
+            <button class="su-tab active" onclick="switchSoldTab('sold')">🏆 Sold (<span id="soldCount">0</span>)</button>
+            <button class="su-tab" onclick="switchSoldTab('unsold')">❌ Unsold (<span id="unsoldCount">0</span>)</button>
+          </div>
+          <div id="soldTabContent" class="su-content">
+            <div id="soldPlayersList"></div>
+          </div>
+          <div id="unsoldTabContent" class="su-content" style="display:none;">
+            <div id="unsoldPlayersList"></div>
+          </div>
         </div>
       </div>
+    </div>
+
+    <!-- Teams & Squads Below -->
+    <div class="panel teams-section">
+      <h3 class="teams-section-title">🏏 Teams & Squads</h3>
+      <div class="teams-horizontal" id="teamsList"></div>
     </div>
   </div>
 </div>
