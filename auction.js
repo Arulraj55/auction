@@ -11,6 +11,9 @@ const TEAMS = [
   { abbr:'LSG', name:'Lucknow Super Giants',color:'#00acc1', textColor:'#fff' },
 ];
 
+const BACKEND_BASE_URL = 'https://auction-zan2.onrender.com';
+const BACKEND_WS_URL = 'wss://auction-zan2.onrender.com/ws';
+
 let ws = null;
 let playerId = null;
 let roomCode = null;
@@ -146,7 +149,7 @@ function initHomePage() {
 
 function fetchRoomsList() {
   // Open a temp websocket to fetch rooms
-  const wsBrowse = new WebSocket(`ws://${window.location.hostname}:${window.location.port}/ws`);
+  const wsBrowse = new WebSocket(BACKEND_WS_URL);
   wsBrowse.onopen = () => {
     wsBrowse.send(JSON.stringify({ action: 'list_rooms' }));
   };
@@ -282,8 +285,7 @@ async function loadPlayerData() {
 }
 
 function connectWebSocket(isReconnecting = false) {
-  const wsUrl = `ws://${window.location.hostname}:${window.location.port}/ws`;
-  ws = new WebSocket(wsUrl);
+  ws = new WebSocket(BACKEND_WS_URL);
 
   ws.onopen = () => {
     console.log('WebSocket connected');
